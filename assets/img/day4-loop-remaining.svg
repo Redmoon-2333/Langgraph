@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1008pt" height="533.952pt" viewBox="0 0 1008 533.952" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-28T01:23:45.805635</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 533.952 
+L 1008 533.952 
+L 1008 0 
+L 0 0 
+z
+" style="fill: #f8fafc"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 22.696514 508.80384 
+L 447.483303 508.80384 
+Q 450.217982 508.80384 450.217982 505.96992 
+L 450.217982 84.66048 
+Q 450.217982 81.82656 447.483303 81.82656 
+L 22.696514 81.82656 
+Q 19.961835 81.82656 19.961835 84.66048 
+L 19.961835 505.96992 
+Q 19.961835 508.80384 22.696514 508.80384 
+z
+" clip-path="url(#pbf3bb79791)" style="fill: #ffffff; stroke: #e2e8f0; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 35.458349 125.75232 
+L 434.721468 125.75232 
+Q 436.088807 125.75232 436.088807 124.33536 
+L 436.088807 95.52384 
+Q 436.088807 94.10688 434.721468 94.10688 
+L 35.458349 94.10688 
+Q 34.091009 94.10688 34.091009 95.52384 
+L 34.091009 124.33536 
+Q 34.091009 125.75232 35.458349 125.75232 
+z
+" clip-path="url(#pbf3bb79791)" style="fill: #2563eb"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 163.076697 182.43072 
+L 307.103119 182.43072 
+Q 308.470459 182.43072 308.470459 181.01376 
+L 308.470459 147.47904 
+Q 308.470459 146.06208 307.103119 146.06208 
+L 163.076697 146.06208 
+Q 161.709358 146.06208 161.709358 147.47904 
+L 161.709358 181.01376 
+Q 161.709358 182.43072 163.076697 182.43072 
+z
+" clip-path="url(#pbf3bb79791)" style="fill: #eff6ff; stroke: #2563eb; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 154.416881 291.06432 
+L 315.762936 291.06432 
+Q 317.586055 291.06432 317.586055 289.17504 
+L 317.586055 230.60736 
+Q 317.586055 228.71808 315.762936 228.71808 
+L 154.416881 228.71808 
+Q 152.593761 228.71808 152.593761 230.60736 
+L 152.593761 289.17504 
+Q 152.593761 291.06432 154.416881 291.06432 
+z
+" clip-path="url(#pbf3bb79791)" style="fill: #f5f3ff; stroke: #7c3aed; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 44.573945 418.59072 
+L 206.83156 418.59072 
+Q 208.198899 418.59072 208.198899 417.17376 
+L 208.198899 352.93824 
+Q 208.198899 351.52128 206.83156 351.52128 
+L 44.573945 351.52128 
+Q 43.206606 351.52128 43.206606 352.93824 
+L 43.206606 417.17376 
+Q 43.206606 418.59072 44.573945 418.59072 
+z
+" clip-path="url(#pbf3bb79791)" style="fill: #fffbeb; stroke: #d97706; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 263.348257 418.59072 
+L 425.605872 418.59072 
+Q 426.973211 418.59072 426.973211 417.17376 
+L 426.973211 352.93824 
+Q 426.973211 351.52128 425.605872 351.52128 
+L 263.348257 351.52128 
+Q 261.980917 351.52128 261.980917 352.93824 
+L 261.980917 417.17376 
+Q 261.980917 418.59072 263.348257 418.59072 
+z
+" clip-path="url(#pbf3bb79791)" style="fill: #ecfdf5; stroke: #059669; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 44.573945 496.52352 
+L 425.605872 496.52352 
+Q 426.973211 496.52352 426.973211 495.10656 
+L 426.973211 437.95584 
+Q 426.973211 436.53888 425.605872 436.53888 
+L 44.573945 436.53888 
+Q 43.206606 436.53888 43.206606 437.95584 
+L 43.206606 495.10656 
+Q 43.206606 496.52352 44.573945 496.52352 
+z
+" clip-path="url(#pbf3bb79791)" style="fill: #f8fafc; stroke: #e2e8f0; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="235.089908" y="113.057362" transform="rotate(-0 235.089908 113.057362)">模式一：ReAct 工具调用循环与死循环模拟 (CP2-10/11)</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; fill: #2563eb" transform="translate(210.983775 161.420037)">input_node</text>
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; fill: #2563eb" transform="translate(187.593502 172.185552)">(注入 HumanMessage)</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 235.089908 192.112561 
+Q 235.089908 189.041239 235.089908 183.957457 
+" style="fill: none; stroke: #2563eb; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 237.089908 188.112561 
+L 235.089908 192.112561 
+L 233.089908 188.112561 
+" style="fill: none; stroke: #2563eb; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #7c3aed" x="235.089908" y="253.31355" transform="rotate(-0 235.089908 253.31355)">llm_node (模型决策)</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(177.607096 271.375566)">model.bind_tools(tools).invoke()</text>
+    <text style="font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(198.733658 280.826503)">判断是否有 tool_calls</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 235.089908 183.956189 
+Q 235.089908 205.572477 235.089908 225.176303 
+" style="fill: none; stroke: #2563eb; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 237.089908 221.176303 
+L 235.089908 225.176303 
+L 233.089908 221.176303 
+" style="fill: none; stroke: #2563eb; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #d97706" x="125.702752" y="373.611713" transform="rotate(-0 125.702752 373.611713)">tool_node (执行工具)</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(74.519354 396.871772)">执行 get_weather / get_news</text>
+    <text style="font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(78.248846 405.980991)">模拟 60% 网络波动失败返回</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #059669" x="344.477064" y="373.625814" transform="rotate(-0 344.477064 373.625814)">output_node (输出结果)</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(314.477064 396.64853)">提取最终回答文本</text>
+    <text style="font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(299.720814 405.883139)">写入 final_output -&gt; END</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 187.689291 291.42224 
+Q 147.014955 310.287442 127.618949 348.216448 
+" style="fill: none; stroke: #d97706; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 131.22082 345.56569 
+L 127.618949 348.216448 
+L 127.659465 343.744496 
+" style="fill: none; stroke: #d97706; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 80.58055 324.12672 
+L 166.267156 324.12672 
+Q 167.178716 324.12672 167.178716 323.18208 
+L 167.178716 302.87232 
+Q 167.178716 301.92768 166.267156 301.92768 
+L 80.58055 301.92768 
+Q 79.668991 301.92768 79.668991 302.87232 
+L 79.668991 323.18208 
+Q 79.668991 324.12672 80.58055 324.12672 
+z
+" clip-path="url(#pbf3bb79791)" style="fill: #d97706"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 98.995261 350.097342 
+Q 118.566098 293.486344 176.16544 290.775761 
+" style="fill: none; stroke-dasharray: 7.4,3.2; stroke-dashoffset: 0; stroke: #d97706; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 172.075848 288.966 
+L 176.16544 290.775761 
+L 172.263877 292.961579 
+" style="fill: none; stroke-dasharray: 7.4,3.2; stroke-dashoffset: 0; stroke: #d97706; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 44.118165 293.42592 
+L 143.478165 293.42592 
+Q 144.389725 293.42592 144.389725 292.48128 
+L 144.389725 272.17152 
+Q 144.389725 271.22688 143.478165 271.22688 
+L 44.118165 271.22688 
+Q 43.206606 271.22688 43.206606 272.17152 
+L 43.206606 292.48128 
+Q 43.206606 293.42592 44.118165 293.42592 
+z
+" clip-path="url(#pbf3bb79791)" style="fill: #fffbeb; stroke: #d97706; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 282.490525 291.42224 
+Q 323.164862 310.287442 342.560868 348.216448 
+" style="fill: none; stroke: #059669; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 342.520352 343.744496 
+L 342.560868 348.216448 
+L 338.958996 345.56569 
+" style="fill: none; stroke: #059669; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 303.912661 324.12672 
+L 389.599266 324.12672 
+Q 390.510826 324.12672 390.510826 323.18208 
+L 390.510826 302.87232 
+Q 390.510826 301.92768 389.599266 301.92768 
+L 303.912661 301.92768 
+Q 303.001101 301.92768 303.001101 302.87232 
+L 303.001101 323.18208 
+Q 303.001101 324.12672 303.912661 324.12672 
+z
+" clip-path="url(#pbf3bb79791)" style="fill: #059669"/>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="52.777982" y="451.1808" transform="rotate(-0 52.777982 451.1808)">💡 两种控制流实现对比：</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #64748b" x="52.777982" y="467.712" transform="rotate(-0 52.777982 467.712)">• 静态条件边 (CP2-10)：add_conditional_edges('llm_node', router)</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #7c3aed" x="52.777982" y="481.8816" transform="rotate(-0 52.777982 481.8816)">• 指令式跳转 (CP2-11)：llm_node 直接 return Command(goto='tool_node', update={...})</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="123.423853" y="315.421954" transform="rotate(-0 123.423853 315.421954)">有 tool_calls</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #d97706" x="93.798165" y="284.664623" transform="rotate(-0 93.798165 284.664623)">追加 ToolMessage 闭环</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="346.755963" y="315.414923" transform="rotate(-0 346.755963 315.414923)">无 tool_calls (完成)</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_17">
+    <path d="M 560.516697 508.80384 
+L 985.303486 508.80384 
+Q 988.038165 508.80384 988.038165 505.96992 
+L 988.038165 84.66048 
+Q 988.038165 81.82656 985.303486 81.82656 
+L 560.516697 81.82656 
+Q 557.782018 81.82656 557.782018 84.66048 
+L 557.782018 505.96992 
+Q 557.782018 508.80384 560.516697 508.80384 
+z
+" clip-path="url(#p6ac56a865b)" style="fill: #ffffff; stroke: #e2e8f0; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 573.278532 125.75232 
+L 972.541651 125.75232 
+Q 973.908991 125.75232 973.908991 124.33536 
+L 973.908991 95.52384 
+Q 973.908991 94.10688 972.541651 94.10688 
+L 573.278532 94.10688 
+Q 571.911193 94.10688 571.911193 95.52384 
+L 571.911193 124.33536 
+Q 571.911193 125.75232 573.278532 125.75232 
+z
+" clip-path="url(#p6ac56a865b)" style="fill: #dc2626"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 576.924771 160.704 
+L 968.895413 160.704 
+" clip-path="url(#p6ac56a865b)" style="fill: none; stroke: #e2e8f0; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 577.38055 196.60032 
+L 968.439633 196.60032 
+Q 969.351193 196.60032 969.351193 195.65568 
+L 969.351193 173.92896 
+Q 969.351193 172.98432 968.439633 172.98432 
+L 577.38055 172.98432 
+Q 576.468991 172.98432 576.468991 173.92896 
+L 576.468991 195.65568 
+Q 576.468991 196.60032 577.38055 196.60032 
+z
+" clip-path="url(#p6ac56a865b)" style="fill: #ffffff; stroke: #2563eb; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 577.38055 223.99488 
+L 968.439633 223.99488 
+Q 969.351193 223.99488 969.351193 223.05024 
+L 969.351193 201.32352 
+Q 969.351193 200.37888 968.439633 200.37888 
+L 577.38055 200.37888 
+Q 576.468991 200.37888 576.468991 201.32352 
+L 576.468991 223.05024 
+Q 576.468991 223.99488 577.38055 223.99488 
+z
+" clip-path="url(#p6ac56a865b)" style="fill: #ffffff; stroke: #2563eb; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 577.38055 251.38944 
+L 968.439633 251.38944 
+Q 969.351193 251.38944 969.351193 250.4448 
+L 969.351193 228.71808 
+Q 969.351193 227.77344 968.439633 227.77344 
+L 577.38055 227.77344 
+Q 576.468991 227.77344 576.468991 228.71808 
+L 576.468991 250.4448 
+Q 576.468991 251.38944 577.38055 251.38944 
+z
+" clip-path="url(#p6ac56a865b)" style="fill: #ffffff; stroke: #2563eb; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 577.38055 278.784 
+L 968.439633 278.784 
+Q 969.351193 278.784 969.351193 277.83936 
+L 969.351193 256.11264 
+Q 969.351193 255.168 968.439633 255.168 
+L 577.38055 255.168 
+Q 576.468991 255.168 576.468991 256.11264 
+L 576.468991 277.83936 
+Q 576.468991 278.784 577.38055 278.784 
+z
+" clip-path="url(#p6ac56a865b)" style="fill: #ffffff; stroke: #2563eb; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 577.38055 306.17856 
+L 968.439633 306.17856 
+Q 969.351193 306.17856 969.351193 305.23392 
+L 969.351193 283.5072 
+Q 969.351193 282.56256 968.439633 282.56256 
+L 577.38055 282.56256 
+Q 576.468991 282.56256 576.468991 283.5072 
+L 576.468991 305.23392 
+Q 576.468991 306.17856 577.38055 306.17856 
+z
+" clip-path="url(#p6ac56a865b)" style="fill: #ffffff; stroke: #d97706; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 577.38055 333.57312 
+L 968.439633 333.57312 
+Q 969.351193 333.57312 969.351193 332.62848 
+L 969.351193 310.90176 
+Q 969.351193 309.95712 968.439633 309.95712 
+L 577.38055 309.95712 
+Q 576.468991 309.95712 576.468991 310.90176 
+L 576.468991 332.62848 
+Q 576.468991 333.57312 577.38055 333.57312 
+z
+" clip-path="url(#p6ac56a865b)" style="fill: #ffffff; stroke: #d97706; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 577.38055 360.96768 
+L 968.439633 360.96768 
+Q 969.351193 360.96768 969.351193 360.02304 
+L 969.351193 338.29632 
+Q 969.351193 337.35168 968.439633 337.35168 
+L 577.38055 337.35168 
+Q 576.468991 337.35168 576.468991 338.29632 
+L 576.468991 360.02304 
+Q 576.468991 360.96768 577.38055 360.96768 
+z
+" clip-path="url(#p6ac56a865b)" style="fill: #ffffff; stroke: #d97706; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 577.38055 388.36224 
+L 968.439633 388.36224 
+Q 969.351193 388.36224 969.351193 387.4176 
+L 969.351193 365.69088 
+Q 969.351193 364.74624 968.439633 364.74624 
+L 577.38055 364.74624 
+Q 576.468991 364.74624 576.468991 365.69088 
+L 576.468991 387.4176 
+Q 576.468991 388.36224 577.38055 388.36224 
+z
+" clip-path="url(#p6ac56a865b)" style="fill: #fef2f2; stroke: #dc2626; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_27">
+    <path d="M 578.29211 496.52352 
+L 967.528073 496.52352 
+Q 969.351193 496.52352 969.351193 494.63424 
+L 969.351193 403.00416 
+Q 969.351193 401.11488 967.528073 401.11488 
+L 578.29211 401.11488 
+Q 576.468991 401.11488 576.468991 403.00416 
+L 576.468991 494.63424 
+Q 576.468991 496.52352 578.29211 496.52352 
+z
+" clip-path="url(#p6ac56a865b)" style="fill: #fef2f2; stroke: #dc2626; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="772.910092" y="113.231268" transform="rotate(-0 772.910092 113.231268)">模式二：RemainingSteps 状态感知与优雅降级退出 (CP2-12)</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="599.713761" y="151.2576" transform="rotate(-0 599.713761 151.2576)">执行步骤</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="699.985321" y="151.2576" transform="rotate(-0 699.985321 151.2576)">Managed 变量</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="809.372477" y="151.2576" transform="rotate(-0 809.372477 151.2576)">路由策略判断</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="932.433028" y="151.2576" transform="rotate(-0 932.433028 151.2576)">下一跳动作</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: middle; fill: #0f172a" x="613.387156" y="187.49339" transform="rotate(-0 613.387156 187.49339)">Step 1</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: middle; fill: #2563eb" x="718.216514" y="187.631109" transform="rotate(-0 718.216514 187.631109)">remaining_steps = 9</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2563eb" x="832.161468" y="187.467765" transform="rotate(-0 832.161468 187.467765)">充裕 ( &gt;= 3 )</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2563eb" x="932.433028" y="187.55964" transform="rotate(-0 932.433028 187.55964)">继续 -&gt; loop_node</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: middle; fill: #0f172a" x="613.387156" y="214.88795" transform="rotate(-0 613.387156 214.88795)">Step 2</text>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: middle; fill: #2563eb" x="718.216514" y="215.025669" transform="rotate(-0 718.216514 215.025669)">remaining_steps = 8</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2563eb" x="832.161468" y="214.862325" transform="rotate(-0 832.161468 214.862325)">充裕 ( &gt;= 3 )</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2563eb" x="932.433028" y="214.9542" transform="rotate(-0 932.433028 214.9542)">继续 -&gt; loop_node</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: middle; fill: #0f172a" x="613.387156" y="242.28251" transform="rotate(-0 613.387156 242.28251)">Step 3</text>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: middle; fill: #2563eb" x="718.216514" y="242.420229" transform="rotate(-0 718.216514 242.420229)">remaining_steps = 7</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2563eb" x="832.161468" y="242.256885" transform="rotate(-0 832.161468 242.256885)">充裕 ( &gt;= 3 )</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2563eb" x="932.433028" y="242.34876" transform="rotate(-0 932.433028 242.34876)">继续 -&gt; loop_node</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: middle; fill: #0f172a" x="613.387156" y="269.67707" transform="rotate(-0 613.387156 269.67707)">Step 4</text>
+   </g>
+   <g id="text_33">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: middle; fill: #2563eb" x="718.216514" y="269.814789" transform="rotate(-0 718.216514 269.814789)">remaining_steps = 6</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2563eb" x="832.161468" y="269.651445" transform="rotate(-0 832.161468 269.651445)">充裕 ( &gt;= 3 )</text>
+   </g>
+   <g id="text_35">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2563eb" x="932.433028" y="269.74332" transform="rotate(-0 932.433028 269.74332)">继续 -&gt; loop_node</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: middle; fill: #0f172a" x="613.387156" y="297.07163" transform="rotate(-0 613.387156 297.07163)">Step 5</text>
+   </g>
+   <g id="text_37">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: middle; fill: #d97706" x="718.216514" y="297.209349" transform="rotate(-0 718.216514 297.209349)">remaining_steps = 5</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #d97706" x="832.161468" y="297.046005" transform="rotate(-0 832.161468 297.046005)">正常 ( &gt;= 3 )</text>
+   </g>
+   <g id="text_39">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #d97706" x="932.433028" y="297.13788" transform="rotate(-0 932.433028 297.13788)">继续 -&gt; loop_node</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: middle; fill: #0f172a" x="613.387156" y="324.46619" transform="rotate(-0 613.387156 324.46619)">Step 6</text>
+   </g>
+   <g id="text_41">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: middle; fill: #d97706" x="718.216514" y="324.603909" transform="rotate(-0 718.216514 324.603909)">remaining_steps = 4</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #d97706" x="832.161468" y="324.440565" transform="rotate(-0 832.161468 324.440565)">正常 ( &gt;= 3 )</text>
+   </g>
+   <g id="text_43">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #d97706" x="932.433028" y="324.53244" transform="rotate(-0 932.433028 324.53244)">继续 -&gt; loop_node</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: middle; fill: #0f172a" x="613.387156" y="351.86075" transform="rotate(-0 613.387156 351.86075)">Step 7</text>
+   </g>
+   <g id="text_45">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: middle; fill: #d97706" x="718.216514" y="351.998469" transform="rotate(-0 718.216514 351.998469)">remaining_steps = 3</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #d97706" x="832.161468" y="351.835125" transform="rotate(-0 832.161468 351.835125)">临界 ( &gt;= 3 )</text>
+   </g>
+   <g id="text_47">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #d97706" x="932.433028" y="351.927" transform="rotate(-0 932.433028 351.927)">继续 -&gt; loop_node</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: middle; fill: #0f172a" x="613.387156" y="379.25531" transform="rotate(-0 613.387156 379.25531)">Step 8</text>
+   </g>
+   <g id="text_49">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: middle; fill: #dc2626" x="718.216514" y="379.393029" transform="rotate(-0 718.216514 379.393029)">remaining_steps = 2</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #dc2626" x="832.161468" y="379.229685" transform="rotate(-0 832.161468 379.229685)">⚠️ 触发阈值 (&lt;3)</text>
+   </g>
+   <g id="text_51">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #dc2626" x="932.433028" y="379.229685" transform="rotate(-0 932.433028 379.229685)">优雅终止 -&gt; END</text>
+   </g>
+   <g id="text_52">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #dc2626" x="590.598165" y="415.7568" transform="rotate(-0 590.598165 415.7568)">⚠️ 核心机制对比：优雅退出 vs 异常硬中断</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="590.598165" y="434.6496" transform="rotate(-0 590.598165 434.6496)">• 默认机制 (CP2-13)：若无退出防护，超步达到 recursion_limit (10) 时，</text>
+   </g>
+   <g id="text_54">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #dc2626" x="604.27156" y="447.40224" transform="rotate(-0 604.27156 447.40224)">框架将直接抛出 GraphRecursionError 异常，导致全流程崩溃且丢失未保存结果。</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="590.598165" y="465.3504" transform="rotate(-0 590.598165 465.3504)">• 优雅降级 (CP2-12)：在路由函数中检查 state['remaining_steps'] &lt; 3，</text>
+   </g>
+   <g id="text_56">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #059669" x="604.27156" y="479.52" transform="rotate(-0 604.27156 479.52)">在步数耗尽前主动返回 END，调用总结节点产出保底答卷，实现系统高可用！</text>
+   </g>
+  </g>
+  <g id="text_57">
+   <text style="font-weight: 700; font-size: 15px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f172a" x="504" y="19.760156" transform="rotate(-0 504 19.760156)">循环的两面：如何构建 ReAct 闭环 × 如何利用 RemainingSteps 优雅退出</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pbf3bb79791">
+   <rect x="7.2" y="54.432" width="455.779817" height="472.32"/>
+  </clipPath>
+  <clipPath id="p6ac56a865b">
+   <rect x="545.020183" y="54.432" width="455.779817" height="472.32"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="851.4pt" height="446.832pt" viewBox="0 0 851.4 446.832" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-28T01:26:43.301878</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 446.832 
+L 851.4 446.832 
+L 851.4 0 
+L 0 0 
+z
+" style="fill: #f8fafc"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 36.774 406.9224 
+L 217.566 406.9224 
+Q 219.798 406.9224 219.798 404.7048 
+L 219.798 75.3912 
+Q 219.798 73.1736 217.566 73.1736 
+L 36.774 73.1736 
+Q 34.542 73.1736 34.542 75.3912 
+L 34.542 404.7048 
+Q 34.542 406.9224 36.774 406.9224 
+z
+" clip-path="url(#p113d0d8f34)" style="fill: #ffffff; stroke: #64748b; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 43.47 179.064 
+L 210.87 179.064 
+" clip-path="url(#p113d0d8f34)" style="fill: none; stroke: #e2e8f0; stroke-linecap: square"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 44.028 323.7624 
+L 210.312 323.7624 
+Q 211.428 323.7624 211.428 322.6536 
+L 211.428 254.4624 
+Q 211.428 253.3536 210.312 253.3536 
+L 44.028 253.3536 
+Q 42.912 253.3536 42.912 254.4624 
+L 42.912 322.6536 
+Q 42.912 323.7624 44.028 323.7624 
+z
+" clip-path="url(#p113d0d8f34)" style="fill: #f8fafc; stroke: #64748b; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 237.654 406.9224 
+L 418.446 406.9224 
+Q 420.678 406.9224 420.678 404.7048 
+L 420.678 75.3912 
+Q 420.678 73.1736 418.446 73.1736 
+L 237.654 73.1736 
+Q 235.422 73.1736 235.422 75.3912 
+L 235.422 404.7048 
+Q 235.422 406.9224 237.654 406.9224 
+z
+" clip-path="url(#p113d0d8f34)" style="fill: #ffffff; stroke: #2563eb; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 244.35 179.064 
+L 411.75 179.064 
+" clip-path="url(#p113d0d8f34)" style="fill: none; stroke: #e2e8f0; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 244.908 323.7624 
+L 411.192 323.7624 
+Q 412.308 323.7624 412.308 322.6536 
+L 412.308 254.4624 
+Q 412.308 253.3536 411.192 253.3536 
+L 244.908 253.3536 
+Q 243.792 253.3536 243.792 254.4624 
+L 243.792 322.6536 
+Q 243.792 323.7624 244.908 323.7624 
+z
+" clip-path="url(#p113d0d8f34)" style="fill: #eff6ff; stroke: #2563eb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 438.534 406.9224 
+L 619.326 406.9224 
+Q 621.558 406.9224 621.558 404.7048 
+L 621.558 75.3912 
+Q 621.558 73.1736 619.326 73.1736 
+L 438.534 73.1736 
+Q 436.302 73.1736 436.302 75.3912 
+L 436.302 404.7048 
+Q 436.302 406.9224 438.534 406.9224 
+z
+" clip-path="url(#p113d0d8f34)" style="fill: #ffffff; stroke: #dc2626; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 445.23 179.064 
+L 612.63 179.064 
+" clip-path="url(#p113d0d8f34)" style="fill: none; stroke: #e2e8f0; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 445.788 323.7624 
+L 612.072 323.7624 
+Q 613.188 323.7624 613.188 322.6536 
+L 613.188 254.4624 
+Q 613.188 253.3536 612.072 253.3536 
+L 445.788 253.3536 
+Q 444.672 253.3536 444.672 254.4624 
+L 444.672 322.6536 
+Q 444.672 323.7624 445.788 323.7624 
+z
+" clip-path="url(#p113d0d8f34)" style="fill: #fef2f2; stroke: #dc2626; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 639.414 406.9224 
+L 820.206 406.9224 
+Q 822.438 406.9224 822.438 404.7048 
+L 822.438 75.3912 
+Q 822.438 73.1736 820.206 73.1736 
+L 639.414 73.1736 
+Q 637.182 73.1736 637.182 75.3912 
+L 637.182 404.7048 
+Q 637.182 406.9224 639.414 406.9224 
+z
+" clip-path="url(#p113d0d8f34)" style="fill: #ffffff; stroke: #7c3aed; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 646.11 179.064 
+L 813.51 179.064 
+" clip-path="url(#p113d0d8f34)" style="fill: none; stroke: #e2e8f0; stroke-linecap: square"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 646.668 323.7624 
+L 812.952 323.7624 
+Q 814.068 323.7624 814.068 322.6536 
+L 814.068 254.4624 
+Q 814.068 253.3536 812.952 253.3536 
+L 646.668 253.3536 
+Q 645.552 253.3536 645.552 254.4624 
+L 645.552 322.6536 
+Q 645.552 323.7624 646.668 323.7624 
+z
+" clip-path="url(#p113d0d8f34)" style="fill: #f5f3ff; stroke: #7c3aed; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f172a" x="425.7" y="41.952562" transform="rotate(-0 425.7 41.952562)">LangGraph Reducer 字段归约算子全景拆解 (CP1-03 / CP1-05)</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #64748b" x="425.7" y="59.079656" transform="rotate(-0 425.7 59.079656)">数学本质：State_new[k] = Reducer(State_old[k], Delta_node[k])  —— 决定多节点并发写入时的状态合并策略</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 41.238 104.7744 
+L 213.102 104.7744 
+Q 214.218 104.7744 214.218 103.6656 
+L 214.218 81.4896 
+Q 214.218 80.3808 213.102 80.3808 
+L 41.238 80.3808 
+Q 40.122 80.3808 40.122 81.4896 
+L 40.122 103.6656 
+Q 40.122 104.7744 41.238 104.7744 
+z
+" clip-path="url(#p113d0d8f34)" style="fill: #64748b"/>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #64748b" x="43.47" y="120.852" transform="rotate(-0 43.47 120.852)">语法声明:</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="46.26" y="134.712" transform="rotate(-0 46.26 134.712)">cur_id: str</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #64748b" x="43.47" y="154.116" transform="rotate(-0 43.47 154.116)">归约逻辑:</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #64748b" x="46.26" y="167.976" transform="rotate(-0 46.26 167.976)">lambda old, new: new</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="43.47" y="192.924" transform="rotate(-0 43.47 192.924)">执行流转模拟:</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="46.26" y="209.556" transform="rotate(-0 46.26 209.556)">Step 0 状态: cur_id = 'start'</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="46.26" y="222.8616" transform="rotate(-0 46.26 222.8616)">Node 1 返回: {'cur_id': 'node_1'}</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="46.26" y="236.1672" transform="rotate(-0 46.26 236.1672)">Node 2 返回: {'cur_id': 'node_2'}</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #64748b" x="49.05" y="270.54" transform="rotate(-0 49.05 270.54)">最终结果: cur_id = 'node_2'</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #64748b" x="43.47" y="345.384" transform="rotate(-0 43.47 345.384)">• 后写入者直接覆盖前序值</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 6.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #64748b" x="43.47" y="360.9072" transform="rotate(-0 43.47 360.9072)">• 适用于单值状态覆盖（如当前任务状态、单一结果等）</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 242.118 104.7744 
+L 413.982 104.7744 
+Q 415.098 104.7744 415.098 103.6656 
+L 415.098 81.4896 
+Q 415.098 80.3808 413.982 80.3808 
+L 242.118 80.3808 
+Q 241.002 80.3808 241.002 81.4896 
+L 241.002 103.6656 
+Q 241.002 104.7744 242.118 104.7744 
+z
+" clip-path="url(#p113d0d8f34)" style="fill: #2563eb"/>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #2563eb" x="244.35" y="120.852" transform="rotate(-0 244.35 120.852)">语法声明:</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="247.14" y="134.712" transform="rotate(-0 247.14 134.712)">logs: Annotated[list[str], add]</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #2563eb" x="244.35" y="154.116" transform="rotate(-0 244.35 154.116)">归约逻辑:</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #64748b" x="247.14" y="167.976" transform="rotate(-0 247.14 167.976)">lambda old, new: old + new</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="244.35" y="192.924" transform="rotate(-0 244.35 192.924)">执行流转模拟:</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="247.14" y="209.556" transform="rotate(-0 247.14 209.556)">Step 0 状态: logs = ['start']</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="247.14" y="222.8616" transform="rotate(-0 247.14 222.8616)">Node 1 返回: {'logs': ['node_1 完成']}</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="247.14" y="236.1672" transform="rotate(-0 247.14 236.1672)">Node 2 返回: {'logs': ['node_2 完成']}</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #2563eb" x="249.93" y="270.54" transform="rotate(-0 249.93 270.54)">最终结果: logs = ['start',</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #2563eb" x="249.93" y="283.8456" transform="rotate(-0 249.93 283.8456)">                  'node_1 完成',</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #2563eb" x="249.93" y="297.1512" transform="rotate(-0 249.93 297.1512)">                  'node_2 完成']</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 6.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #64748b" x="244.35" y="345.384" transform="rotate(-0 244.35 345.384)">• 严格按超步时序列表拼接</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 6.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #64748b" x="244.35" y="360.9072" transform="rotate(-0 244.35 360.9072)">• 并行安全：多分支结果自动汇总入同一列表</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 442.998 104.7744 
+L 614.862 104.7744 
+Q 615.978 104.7744 615.978 103.6656 
+L 615.978 81.4896 
+Q 615.978 80.3808 614.862 80.3808 
+L 442.998 80.3808 
+Q 441.882 80.3808 441.882 81.4896 
+L 441.882 103.6656 
+Q 441.882 104.7744 442.998 104.7744 
+z
+" clip-path="url(#p113d0d8f34)" style="fill: #dc2626"/>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #dc2626" x="445.23" y="120.852" transform="rotate(-0 445.23 120.852)">语法声明:</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="448.02" y="134.712" transform="rotate(-0 448.02 134.712)">logs: Overwrite(['node_2 重置'])</text>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #dc2626" x="445.23" y="154.116" transform="rotate(-0 445.23 154.116)">归约逻辑:</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #64748b" x="448.02" y="167.976" transform="rotate(-0 448.02 167.976)">强制忽略已声明的 Reducer</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="445.23" y="192.924" transform="rotate(-0 445.23 192.924)">执行流转模拟:</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="448.02" y="209.556" transform="rotate(-0 448.02 209.556)">历史状态: logs = ['start', 'node_1 完成']</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="448.02" y="222.8616" transform="rotate(-0 448.02 222.8616)">Node 2 返回: {'logs': Overwrite(['node_2'])}</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="448.02" y="236.1672" transform="rotate(-0 448.02 236.1672)">Node 3 返回: {'logs': ['node_3 完成']}</text>
+   </g>
+   <g id="text_35">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #dc2626" x="450.81" y="270.54" transform="rotate(-0 450.81 270.54)">最终结果: logs = ['node_2',</text>
+   </g>
+   <g id="text_36">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #dc2626" x="450.81" y="283.8456" transform="rotate(-0 450.81 283.8456)">                  'node_3 完成']</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 6.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #64748b" x="445.23" y="345.384" transform="rotate(-0 445.23 345.384)">• 截断历史轨迹，强制赋新值</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 6.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #64748b" x="445.23" y="360.9072" transform="rotate(-0 445.23 360.9072)">• 适用于重置对话上下文、清空重试计数等场景</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 643.878 104.7744 
+L 815.742 104.7744 
+Q 816.858 104.7744 816.858 103.6656 
+L 816.858 81.4896 
+Q 816.858 80.3808 815.742 80.3808 
+L 643.878 80.3808 
+Q 642.762 80.3808 642.762 81.4896 
+L 642.762 103.6656 
+Q 642.762 104.7744 643.878 104.7744 
+z
+" clip-path="url(#p113d0d8f34)" style="fill: #7c3aed"/>
+   </g>
+   <g id="text_39">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #7c3aed" x="646.11" y="120.852" transform="rotate(-0 646.11 120.852)">语法声明:</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="648.9" y="134.712" transform="rotate(-0 648.9 134.712)">messages: MessagesState</text>
+   </g>
+   <g id="text_41">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #7c3aed" x="646.11" y="154.116" transform="rotate(-0 646.11 154.116)">归约逻辑:</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #64748b" x="648.9" y="167.976" transform="rotate(-0 648.9 167.976)">ID 匹配更新 + 时序去重合并</text>
+   </g>
+   <g id="text_43">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="646.11" y="192.924" transform="rotate(-0 646.11 192.924)">执行流转模拟:</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="648.9" y="209.556" transform="rotate(-0 648.9 209.556)">历史: [Human('你好', id='1'), AI('..', id='2')]</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="648.9" y="222.8616" transform="rotate(-0 648.9 222.8616)">Node 返回: [AI('更新内容', id='2'),</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="648.9" y="236.1672" transform="rotate(-0 648.9 236.1672)">            Human('新问题', id='3')]</text>
+   </g>
+   <g id="text_47">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #7c3aed" x="651.69" y="270.54" transform="rotate(-0 651.69 270.54)">最终结果: [Human(id='1'),</text>
+   </g>
+   <g id="text_48">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #7c3aed" x="651.69" y="283.8456" transform="rotate(-0 651.69 283.8456)">                  AI('更新内容', id='2'),</text>
+   </g>
+   <g id="text_49">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #7c3aed" x="651.69" y="297.1512" transform="rotate(-0 651.69 297.1512)">                  Human(id='3')]</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 6.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #64748b" x="646.11" y="345.384" transform="rotate(-0 646.11 345.384)">• 智能按 message.id 覆盖旧消息</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 6.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #64748b" x="646.11" y="360.9072" transform="rotate(-0 646.11 360.9072)">• 支持删除标记 (RemoveMessage)，多轮对话基石</text>
+   </g>
+   <g id="text_52">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="127.17" y="94.725647" transform="rotate(-0 127.17 94.725647)">模式 1: 默认覆盖语义 (无 Annotated)</text>
+   </g>
+   <g id="text_53">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="328.05" y="94.877991" transform="rotate(-0 328.05 94.877991)">模式 2: 列表追加归约 (operator.add)</text>
+   </g>
+   <g id="text_54">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="528.93" y="94.725647" transform="rotate(-0 528.93 94.725647)">模式 3: 强制重置覆盖 (Overwrite 标记)</text>
+   </g>
+   <g id="text_55">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="729.81" y="94.826803" transform="rotate(-0 729.81 94.826803)">模式 4: 对话消息智能归约 (add_messages)</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p113d0d8f34">
+   <rect x="7.2" y="7.2" width="837" height="432.432"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1465.2pt" height="735.12pt" viewBox="0 0 1465.2 735.12" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-28T01:59:14.541424</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 735.12 
+L 1465.2 735.12 
+L 1465.2 0 
+L 0 0 
+z
+" style="fill: #f8fafc"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 44.028 679.1328 
+L 366.552 679.1328 
+Q 371.016 679.1328 371.016 674.6976 
+L 371.016 115.8624 
+Q 371.016 111.4272 366.552 111.4272 
+L 44.028 111.4272 
+Q 39.564 111.4272 39.564 115.8624 
+L 39.564 674.6976 
+Q 39.564 679.1328 44.028 679.1328 
+z
+" clip-path="url(#p1f6c23a656)" style="fill: #dbeafe; opacity: 0.95; stroke: #2563eb; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 395.568 679.1328 
+L 718.092 679.1328 
+Q 722.556 679.1328 722.556 674.6976 
+L 722.556 115.8624 
+Q 722.556 111.4272 718.092 111.4272 
+L 395.568 111.4272 
+Q 391.104 111.4272 391.104 115.8624 
+L 391.104 674.6976 
+Q 391.104 679.1328 395.568 679.1328 
+z
+" clip-path="url(#p1f6c23a656)" style="fill: #fffbeb; opacity: 0.95; stroke: #d97706; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 747.108 679.1328 
+L 1069.632 679.1328 
+Q 1074.096 679.1328 1074.096 674.6976 
+L 1074.096 115.8624 
+Q 1074.096 111.4272 1069.632 111.4272 
+L 747.108 111.4272 
+Q 742.644 111.4272 742.644 115.8624 
+L 742.644 674.6976 
+Q 742.644 679.1328 747.108 679.1328 
+z
+" clip-path="url(#p1f6c23a656)" style="fill: #ede9fe; opacity: 0.95; stroke: #7c3aed; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 1098.648 679.1328 
+L 1421.172 679.1328 
+Q 1425.636 679.1328 1425.636 674.6976 
+L 1425.636 115.8624 
+Q 1425.636 111.4272 1421.172 111.4272 
+L 1098.648 111.4272 
+Q 1094.184 111.4272 1094.184 115.8624 
+L 1094.184 674.6976 
+Q 1094.184 679.1328 1098.648 679.1328 
+z
+" clip-path="url(#p1f6c23a656)" style="fill: #d1fae5; opacity: 0.95; stroke: #059669; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 42.354 714.6144 
+L 1422.846 714.6144 
+Q 1425.078 714.6144 1425.078 712.3968 
+L 1425.078 685.2312 
+Q 1425.078 683.0136 1422.846 683.0136 
+L 42.354 683.0136 
+Q 40.122 683.0136 40.122 685.2312 
+L 40.122 712.3968 
+Q 40.122 714.6144 42.354 714.6144 
+z
+" clip-path="url(#p1f6c23a656)" style="fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 53.514 149.1264 
+L 357.066 149.1264 
+Q 359.298 149.1264 359.298 146.9088 
+L 359.298 110.3184 
+Q 359.298 108.1008 357.066 108.1008 
+L 53.514 108.1008 
+Q 51.282 108.1008 51.282 110.3184 
+L 51.282 146.9088 
+Q 51.282 149.1264 53.514 149.1264 
+z
+" clip-path="url(#p1f6c23a656)" style="fill: #2563eb"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 405.054 149.1264 
+L 708.606 149.1264 
+Q 710.838 149.1264 710.838 146.9088 
+L 710.838 110.3184 
+Q 710.838 108.1008 708.606 108.1008 
+L 405.054 108.1008 
+Q 402.822 108.1008 402.822 110.3184 
+L 402.822 146.9088 
+Q 402.822 149.1264 405.054 149.1264 
+z
+" clip-path="url(#p1f6c23a656)" style="fill: #d97706"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 756.594 149.1264 
+L 1060.146 149.1264 
+Q 1062.378 149.1264 1062.378 146.9088 
+L 1062.378 110.3184 
+Q 1062.378 108.1008 1060.146 108.1008 
+L 756.594 108.1008 
+Q 754.362 108.1008 754.362 110.3184 
+L 754.362 146.9088 
+Q 754.362 149.1264 756.594 149.1264 
+z
+" clip-path="url(#p1f6c23a656)" style="fill: #7c3aed"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 1108.134 149.1264 
+L 1411.686 149.1264 
+Q 1413.918 149.1264 1413.918 146.9088 
+L 1413.918 110.3184 
+Q 1413.918 108.1008 1411.686 108.1008 
+L 1108.134 108.1008 
+Q 1105.902 108.1008 1105.902 110.3184 
+L 1105.902 146.9088 
+Q 1105.902 149.1264 1108.134 149.1264 
+z
+" clip-path="url(#p1f6c23a656)" style="fill: #059669"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 59.094 301.5864 
+L 351.486 301.5864 
+Q 353.718 301.5864 353.718 299.3688 
+L 353.718 194.5872 
+Q 353.718 192.3696 351.486 192.3696 
+L 59.094 192.3696 
+Q 56.862 192.3696 56.862 194.5872 
+L 56.862 299.3688 
+Q 56.862 301.5864 59.094 301.5864 
+z
+" clip-path="url(#p1f6c23a656)" style="fill: #ffffff; stroke: #2563eb; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 59.094 653.6304 
+L 351.486 653.6304 
+Q 353.718 653.6304 353.718 651.4128 
+L 353.718 335.9592 
+Q 353.718 333.7416 351.486 333.7416 
+L 59.094 333.7416 
+Q 56.862 333.7416 56.862 335.9592 
+L 56.862 651.4128 
+Q 56.862 653.6304 59.094 653.6304 
+z
+" clip-path="url(#p1f6c23a656)" style="fill: #ffffff; stroke: #2563eb; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 410.634 301.5864 
+L 703.026 301.5864 
+Q 705.258 301.5864 705.258 299.3688 
+L 705.258 194.5872 
+Q 705.258 192.3696 703.026 192.3696 
+L 410.634 192.3696 
+Q 408.402 192.3696 408.402 194.5872 
+L 408.402 299.3688 
+Q 408.402 301.5864 410.634 301.5864 
+z
+" clip-path="url(#p1f6c23a656)" style="fill: #ffffff; stroke: #d97706; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 410.634 451.2744 
+L 703.026 451.2744 
+Q 705.258 451.2744 705.258 449.0568 
+L 705.258 344.2752 
+Q 705.258 342.0576 703.026 342.0576 
+L 410.634 342.0576 
+Q 408.402 342.0576 408.402 344.2752 
+L 408.402 449.0568 
+Q 408.402 451.2744 410.634 451.2744 
+z
+" clip-path="url(#p1f6c23a656)" style="fill: #ffffff; stroke: #d97706; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 410.634 600.9624 
+L 703.026 600.9624 
+Q 705.258 600.9624 705.258 598.7448 
+L 705.258 493.9632 
+Q 705.258 491.7456 703.026 491.7456 
+L 410.634 491.7456 
+Q 408.402 491.7456 408.402 493.9632 
+L 408.402 598.7448 
+Q 408.402 600.9624 410.634 600.9624 
+z
+" clip-path="url(#p1f6c23a656)" style="fill: #ffffff; stroke: #d97706; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 762.174 636.9984 
+L 1054.566 636.9984 
+Q 1056.798 636.9984 1056.798 634.7808 
+L 1056.798 263.8872 
+Q 1056.798 261.6696 1054.566 261.6696 
+L 762.174 261.6696 
+Q 759.942 261.6696 759.942 263.8872 
+L 759.942 634.7808 
+Q 759.942 636.9984 762.174 636.9984 
+z
+" clip-path="url(#p1f6c23a656)" style="fill: #ffffff; stroke: #7c3aed; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 1113.714 625.9104 
+L 1406.106 625.9104 
+Q 1408.338 625.9104 1408.338 623.6928 
+L 1408.338 263.8872 
+Q 1408.338 261.6696 1406.106 261.6696 
+L 1113.714 261.6696 
+Q 1111.482 261.6696 1111.482 263.8872 
+L 1111.482 623.6928 
+Q 1111.482 625.9104 1113.714 625.9104 
+z
+" clip-path="url(#p1f6c23a656)" style="fill: #ffffff; stroke: #059669; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 22px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f172a" x="732.6" y="50.593625" transform="rotate(-0 732.6 50.593625)">LangGraph MapReduce 动态分发与状态归约范式 (CP2-09)</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 13px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #64748b" x="732.6" y="73.57625" transform="rotate(-0 732.6 73.57625)">核心机理: router_node 通过 Send() 动态并发 N 个 Mapper  -&gt;  State 字段 Annotated 自动归约  -&gt;  reducer_node 聚合</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="205.29" y="132.408991" transform="rotate(-0 205.29 132.408991)">Stage 1: 输入与动态路由</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: middle; fill: #2563eb" x="205.29" y="173.499328" transform="rotate(-0 205.29 173.499328)">router_node -&gt; Sequence[Send]</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="556.83" y="132.402897" transform="rotate(-0 556.83 132.402897)">Stage 2: 动态并行映射 (Map)</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: middle; fill: #d97706" x="556.83" y="173.499328" transform="rotate(-0 556.83 173.499328)">N x mapper_node (Send 驱动)</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="908.37" y="132.4161" transform="rotate(-0 908.37 132.4161)">Stage 3: 状态归约与 Shuffle</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: middle; fill: #7c3aed" x="908.37" y="173.645344" transform="rotate(-0 908.37 173.645344)">entries: Annotated[list, add]</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="1259.91" y="132.4161" transform="rotate(-0 1259.91 132.4161)">Stage 4: 结果聚合 (Reduce)</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: middle; fill: #059669" x="1259.91" y="173.499328" transform="rotate(-0 1259.91 173.499328)">reducer_node -&gt; OutputState</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #2563eb" x="71.37" y="209.556" transform="rotate(-0 71.37 209.556)">input_values: list[str]</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="76.95" y="235.6128" transform="rotate(-0 76.95 235.6128)">0: "hello world"</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="76.95" y="261.1152" transform="rotate(-0 76.95 261.1152)">1: "hello redmoon"</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="76.95" y="286.6176" transform="rotate(-0 76.95 286.6176)">2: "hello llm"</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #2563eb" x="71.37" y="353.7" transform="rotate(-0 71.37 353.7)">def router_node(state):</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10.8px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #2563eb" x="69.696" y="375.876" transform="rotate(-0 69.696 375.876)">  tasks = []</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10.8px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #64748b" x="69.696" y="400.2696" transform="rotate(-0 69.696 400.2696)">  for val in state['input_values']:</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 10.8px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #2563eb" x="69.696" y="424.6632" transform="rotate(-0 69.696 424.6632)">    tasks.append(</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 10.8px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #2563eb" x="69.696" y="449.0568" transform="rotate(-0 69.696 449.0568)">      Send('mapper_node',</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 10.8px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #64748b" x="69.696" y="473.4504" transform="rotate(-0 69.696 473.4504)">           {'input_value': val})</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 10.8px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #64748b" x="69.696" y="497.844" transform="rotate(-0 69.696 497.844)">    )</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 10.8px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #2563eb" x="69.696" y="522.2376" transform="rotate(-0 69.696 522.2376)">  return tasks  # 返回 3 个 Send</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 10.8px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #64748b" x="69.696" y="546.6312" transform="rotate(-0 69.696 546.6312)">  # (动态确定并行度!)</text>
+   </g>
+   <g id="patch_18">
+    <path d="M 205.29 303.03385 
+Q 205.29 309.350603 205.29 312.760468 
+" style="fill: none; stroke: #2563eb; stroke-width: 2.6; stroke-linecap: round"/>
+    <path d="M 207.29 308.760468 
+L 205.29 312.760468 
+L 203.29 308.760468 
+" style="fill: none; stroke: #2563eb; stroke-width: 2.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #d97706" x="422.91" y="207.8928" transform="rotate(-0 422.91 207.8928)">mapper_node #1 (Worker)</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #64748b" x="422.91" y="231.1776" transform="rotate(-0 422.91 231.1776)">in : 'hello world'</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="422.91" y="255.5712" transform="rotate(-0 422.91 255.5712)">out: [('hello',1),</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="450.81" y="279.9648" transform="rotate(-0 450.81 279.9648)">      ('world',1)]</text>
+   </g>
+   <g id="patch_19">
+    <path d="M 352.78143 493.107482 
+Q 327.321825 359.064679 406.192351 251.036927 
+" style="fill: none; stroke: #d97706; stroke-width: 2.4; stroke-linecap: round"/>
+    <path d="M 402.218403 253.088206 
+L 406.192351 251.036927 
+L 405.449005 255.446852 
+" style="fill: none; stroke: #d97706; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #d97706" x="422.91" y="357.5808" transform="rotate(-0 422.91 357.5808)">mapper_node #2 (Worker)</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #64748b" x="422.91" y="380.8656" transform="rotate(-0 422.91 380.8656)">in : 'hello redmoon'</text>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="422.91" y="405.2592" transform="rotate(-0 422.91 405.2592)">out: [('hello',1),</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="450.81" y="429.6528" transform="rotate(-0 450.81 429.6528)">      ('redmoon',1)]</text>
+   </g>
+   <g id="patch_20">
+    <path d="M 354.149374 493.332106 
+Q 381.060408 446.006883 406.645067 401.014197 
+" style="fill: none; stroke: #d97706; stroke-width: 2.4; stroke-linecap: round"/>
+    <path d="M 402.929253 403.502716 
+L 406.645067 401.014197 
+L 406.406394 405.479959 
+" style="fill: none; stroke: #d97706; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_32">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #d97706" x="422.91" y="507.2688" transform="rotate(-0 422.91 507.2688)">mapper_node #3 (Worker)</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #64748b" x="422.91" y="530.5536" transform="rotate(-0 422.91 530.5536)">in : 'hello llm'</text>
+   </g>
+   <g id="text_34">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="422.91" y="554.9472" transform="rotate(-0 422.91 554.9472)">out: [('hello',1),</text>
+   </g>
+   <g id="text_35">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="450.81" y="579.3408" transform="rotate(-0 450.81 579.3408)">      ('llm',1)]</text>
+   </g>
+   <g id="patch_21">
+    <path d="M 353.974659 496.899545 
+Q 370.252023 532.546323 404.549684 545.043481 
+" style="fill: none; stroke: #d97706; stroke-width: 2.4; stroke-linecap: round"/>
+    <path d="M 401.476111 541.794921 
+L 404.549684 545.043481 
+L 400.106692 545.553204 
+" style="fill: none; stroke: #d97706; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_36">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #7c3aed" x="774.45" y="276.084" transform="rotate(-0 774.45 276.084)">State 归约与 Shuffle 汇聚</text>
+   </g>
+   <g id="text_37">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #7c3aed" x="774.45" y="298.26" transform="rotate(-0 774.45 298.26)">entries: Annotated[list, add]</text>
+   </g>
+   <g id="text_38">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #7c3aed" x="772.776" y="322.0992" transform="rotate(-0 772.776 322.0992)">① 框架自动 Reducer (add):</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="772.776" y="343.7208" transform="rotate(-0 772.776 343.7208)">  entries = [</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="772.776" y="365.3424" transform="rotate(-0 772.776 365.3424)">    ('hello', 1), ('world', 1),</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="772.776" y="386.964" transform="rotate(-0 772.776 386.964)">    ('hello', 1), ('redmoon', 1),</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="772.776" y="408.5856" transform="rotate(-0 772.776 408.5856)">    ('hello', 1), ('llm', 1)</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="772.776" y="430.2072" transform="rotate(-0 772.776 430.2072)">  ]</text>
+   </g>
+   <g id="text_44">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #7c3aed" x="772.776" y="473.4504" transform="rotate(-0 772.776 473.4504)">② 节点内 Shuffle 分组:</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="772.776" y="495.072" transform="rotate(-0 772.776 495.072)">  shuffle_dict = {</text>
+   </g>
+   <g id="text_46">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="772.776" y="516.6936" transform="rotate(-0 772.776 516.6936)">    'hello':   [1, 1, 1],</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="772.776" y="538.3152" transform="rotate(-0 772.776 538.3152)">    'world':   [1],</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="772.776" y="559.9368" transform="rotate(-0 772.776 559.9368)">    'redmoon': [1],</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="772.776" y="581.5584" transform="rotate(-0 772.776 581.5584)">    'llm':     [1]</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="772.776" y="603.18" transform="rotate(-0 772.776 603.18)">  }</text>
+   </g>
+   <g id="patch_22">
+    <path d="M 704.809035 249.252206 
+Q 709.684449 333.605573 757.744938 399.811578 
+" style="fill: none; stroke: #7c3aed; stroke-width: 2.4; stroke-linecap: round"/>
+    <path d="M 757.013619 395.399643 
+L 757.744938 399.811578 
+L 753.776598 397.749472 
+" style="fill: none; stroke: #7c3aed; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 706.685559 397.17993 
+Q 732.599196 400.269504 755.848422 403.041412 
+" style="fill: none; stroke: #7c3aed; stroke-width: 2.4; stroke-linecap: round"/>
+    <path d="M 752.113327 400.581927 
+L 755.848422 403.041412 
+L 751.639777 404.553797 
+" style="fill: none; stroke: #7c3aed; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 704.867567 544.639544 
+Q 711.673456 466.95193 757.634403 407.303652 
+" style="fill: none; stroke: #7c3aed; stroke-width: 2.4; stroke-linecap: round"/>
+    <path d="M 753.608719 409.251437 
+L 757.634403 407.303652 
+L 756.77722 411.69287 
+" style="fill: none; stroke: #7c3aed; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_51">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #059669" x="1125.99" y="276.084" transform="rotate(-0 1125.99 276.084)">reducer_node 执行</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #64748b" x="1125.99" y="298.26" transform="rotate(-0 1125.99 298.26)">求和聚合 (Reduce)</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="1127.106" y="322.0992" transform="rotate(-0 1127.106 322.0992)">word_count = {</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="1127.106" y="343.7208" transform="rotate(-0 1127.106 343.7208)">  k: sum(v)</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="1127.106" y="365.3424" transform="rotate(-0 1127.106 365.3424)">  for k,v in</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="1127.106" y="386.964" transform="rotate(-0 1127.106 386.964)">  shuffle_dict</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="1127.106" y="408.5856" transform="rotate(-0 1127.106 408.5856)">}</text>
+   </g>
+   <g id="text_58">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #059669" x="1127.106" y="451.8288" transform="rotate(-0 1127.106 451.8288)">⭐ 最终 OutputState:</text>
+   </g>
+   <g id="text_59">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="1127.106" y="473.4504" transform="rotate(-0 1127.106 473.4504)">{</text>
+   </g>
+   <g id="text_60">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #059669" x="1127.106" y="495.072" transform="rotate(-0 1127.106 495.072)">  'hello': 3,</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="1127.106" y="516.6936" transform="rotate(-0 1127.106 516.6936)">  'world': 1,</text>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="1127.106" y="538.3152" transform="rotate(-0 1127.106 538.3152)">  'redmoon': 1,</text>
+   </g>
+   <g id="text_63">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="1127.106" y="559.9368" transform="rotate(-0 1127.106 559.9368)">  'llm': 1</text>
+   </g>
+   <g id="text_64">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="1127.106" y="581.5584" transform="rotate(-0 1127.106 581.5584)">}</text>
+   </g>
+   <g id="patch_25">
+    <path d="M 1058.239182 403.596 
+Q 1084.139692 403.596 1106.6861 403.596 
+" style="fill: none; stroke: #059669; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 1102.6861 401.596 
+L 1106.6861 403.596 
+L 1102.6861 405.596 
+" style="fill: none; stroke: #059669; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="text_65">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f172a" x="732.6" y="702.6012" transform="rotate(-0 732.6 702.6012)">核心机制: Pregel 调度器根据 router 返回的 Send 列表动态拉起子任务实例; 节点返回增量自动经 Annotated[list, add] 完成 Map 到 Reduce 的分布式归约闭环。</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1f6c23a656">
+   <rect x="7.2" y="7.2" width="1450.8" height="720.72"/>
+  </clipPath>
+ </defs>
+</svg>

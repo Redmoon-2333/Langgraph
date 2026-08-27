@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="851.4pt" height="430.2pt" viewBox="0 0 851.4 430.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-28T01:26:44.100274</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 430.2 
+L 851.4 430.2 
+L 851.4 0 
+L 0 0 
+z
+" style="fill: #f8fafc"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 119.358 229.5144 
+L 564.642 229.5144 
+Q 565.758 229.5144 565.758 228.4056 
+L 565.758 196.2504 
+Q 565.758 195.1416 564.642 195.1416 
+L 119.358 195.1416 
+Q 118.242 195.1416 118.242 196.2504 
+L 118.242 228.4056 
+Q 118.242 229.5144 119.358 229.5144 
+z
+" clip-path="url(#peccd660d61)" style="fill: #ecfdf5; opacity: 0.85; stroke: #059669; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 63 212.328 
+L 788.4 212.328 
+" clip-path="url(#peccd660d61)" style="fill: none; stroke: #64748b; stroke-width: 2.5; stroke-linecap: square"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 64.116 401.3784 
+L 787.284 401.3784 
+Q 788.958 401.3784 788.958 399.7152 
+L 788.958 318.7728 
+Q 788.958 317.1096 787.284 317.1096 
+L 64.116 317.1096 
+Q 62.442 317.1096 62.442 318.7728 
+L 62.442 399.7152 
+Q 62.442 401.3784 64.116 401.3784 
+z
+" clip-path="url(#peccd660d61)" style="fill: #ffffff; stroke: #e2e8f0; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f172a" x="425.7" y="41.936156" transform="rotate(-0 425.7 41.936156)">LangGraph 节点级缓存机制与 CachePolicy(TTL) 失效时序 (CP2-15)</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #64748b" x="425.7" y="59.097938" transform="rotate(-0 425.7 59.097938)">缓存 Key 原理：hash(node_name, 节点输入状态指纹) -&gt; 在 TTL 有效期内直接命中返回，跳过模型/工具计算</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2563eb" x="118.8" y="192.924" transform="rotate(-0 118.8 192.924)">第一次调用 (t=0s)</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 30.636 174.0744 
+L 206.964 174.0744 
+Q 208.638 174.0744 208.638 172.4112 
+L 208.638 74.8368 
+Q 208.638 73.1736 206.964 73.1736 
+L 30.636 73.1736 
+Q 28.962 73.1736 28.962 74.8368 
+L 28.962 172.4112 
+Q 28.962 174.0744 30.636 174.0744 
+z
+" clip-path="url(#peccd660d61)" style="fill: #ffffff; stroke: #2563eb; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="37.89" y="87.588" transform="rotate(-0 37.89 87.588)">输入: {'user': 'test'}</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="37.89" y="108.6552" transform="rotate(-0 37.89 108.6552)">耗时: 3.0s (冷启动计算)</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="37.89" y="129.7224" transform="rotate(-0 37.89 129.7224)">结果: invoke_counts=1</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #2563eb" x="37.89" y="150.7896" transform="rotate(-0 37.89 150.7896)">状态: 🔴 未命中 (MISS) -&gt; 写入缓存</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #059669" x="369.9" y="192.924" transform="rotate(-0 369.9 192.924)">第二次调用 (t=3s)</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 281.736 174.0744 
+L 458.064 174.0744 
+Q 459.738 174.0744 459.738 172.4112 
+L 459.738 74.8368 
+Q 459.738 73.1736 458.064 73.1736 
+L 281.736 73.1736 
+Q 280.062 73.1736 280.062 74.8368 
+L 280.062 172.4112 
+Q 280.062 174.0744 281.736 174.0744 
+z
+" clip-path="url(#peccd660d61)" style="fill: #ffffff; stroke: #059669; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="288.99" y="87.588" transform="rotate(-0 288.99 87.588)">输入: {'user': 'test'}</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="288.99" y="108.6552" transform="rotate(-0 288.99 108.6552)">耗时: 0.0s (直接取缓存)</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="288.99" y="129.7224" transform="rotate(-0 288.99 129.7224)">结果: invoke_counts=1 (复用)</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #059669" x="288.99" y="150.7896" transform="rotate(-0 288.99 150.7896)">状态: 🟢 命中 (HIT) -&gt; 跳过执行</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #d97706" x="676.8" y="192.924" transform="rotate(-0 676.8 192.924)">第三次调用 (t=14s, sleep 11s)</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 588.636 174.0744 
+L 764.964 174.0744 
+Q 766.638 174.0744 766.638 172.4112 
+L 766.638 74.8368 
+Q 766.638 73.1736 764.964 73.1736 
+L 588.636 73.1736 
+Q 586.962 73.1736 586.962 74.8368 
+L 586.962 172.4112 
+Q 586.962 174.0744 588.636 174.0744 
+z
+" clip-path="url(#peccd660d61)" style="fill: #ffffff; stroke: #d97706; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="595.89" y="87.588" transform="rotate(-0 595.89 87.588)">输入: {'user': 'test'}</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="595.89" y="108.6552" transform="rotate(-0 595.89 108.6552)">耗时: 3.0s (重新计算)</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="595.89" y="129.7224" transform="rotate(-0 595.89 129.7224)">结果: invoke_counts=1</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #d97706" x="595.89" y="150.7896" transform="rotate(-0 595.89 150.7896)">状态: 🔴 TTL 过期失效 -&gt; 重新执行</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #059669" x="342" y="245.592" transform="rotate(-0 342 245.592)">⏳ TTL = 10 秒缓存有效窗口 (0s ~ 10s)</text>
+   </g>
+   <g id="line2d_2">
+    <path d="M 565.2 278.856 
+L 565.2 179.064 
+" clip-path="url(#peccd660d61)" style="fill: none; stroke-dasharray: 6.66,2.88; stroke-dashoffset: 0; stroke: #dc2626; stroke-width: 1.8"/>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #dc2626" x="565.2" y="292.716" transform="rotate(-0 565.2 292.716)">t=10s 缓存失效点</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="79.74" y="337.068" transform="rotate(-0 79.74 337.068)">🛠️ LangGraph 缓存核心代码范式：</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #2563eb" x="79.74" y="356.472" transform="rotate(-0 79.74 356.472)">builder.add_node('node_a', node_a, cache_policy=CachePolicy(ttl=10))  # 声明节点 TTL 为 10 秒</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #7c3aed" x="79.74" y="375.876" transform="rotate(-0 79.74 375.876)">graph = builder.compile(cache=InMemoryCache())  # 编译时注入缓存后端（生产支持 Redis/Sqlite 等持久化缓存）</text>
+   </g>
+   <g id="line2d_3">
+    <path d="M 118.8 212.328 
+" clip-path="url(#peccd660d61)" style="fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: square"/>
+    <defs>
+     <path id="m10e8b5a287" d="M 0 6 
+C 1.591219 6 3.117479 5.367802 4.242641 4.242641 
+C 5.367802 3.117479 6 1.591219 6 0 
+C 6 -1.591219 5.367802 -3.117479 4.242641 -4.242641 
+C 3.117479 -5.367802 1.591219 -6 0 -6 
+C -1.591219 -6 -3.117479 -5.367802 -4.242641 -4.242641 
+C -5.367802 -3.117479 -6 -1.591219 -6 0 
+C -6 1.591219 -5.367802 3.117479 -4.242641 4.242641 
+C -3.117479 5.367802 -1.591219 6 0 6 
+z
+" style="stroke: #2563eb"/>
+    </defs>
+    <g clip-path="url(#peccd660d61)">
+     <use xlink:href="#m10e8b5a287" x="118.8" y="212.328" style="fill: #2563eb; stroke: #2563eb"/>
+    </g>
+   </g>
+   <g id="line2d_4">
+    <path d="M 369.9 212.328 
+" clip-path="url(#peccd660d61)" style="fill: none; stroke: #059669; stroke-width: 1.5; stroke-linecap: square"/>
+    <defs>
+     <path id="m6f9692c63d" d="M 0 6 
+C 1.591219 6 3.117479 5.367802 4.242641 4.242641 
+C 5.367802 3.117479 6 1.591219 6 0 
+C 6 -1.591219 5.367802 -3.117479 4.242641 -4.242641 
+C 3.117479 -5.367802 1.591219 -6 0 -6 
+C -1.591219 -6 -3.117479 -5.367802 -4.242641 -4.242641 
+C -5.367802 -3.117479 -6 -1.591219 -6 0 
+C -6 1.591219 -5.367802 3.117479 -4.242641 4.242641 
+C -3.117479 5.367802 -1.591219 6 0 6 
+z
+" style="stroke: #059669"/>
+    </defs>
+    <g clip-path="url(#peccd660d61)">
+     <use xlink:href="#m6f9692c63d" x="369.9" y="212.328" style="fill: #059669; stroke: #059669"/>
+    </g>
+   </g>
+   <g id="line2d_5">
+    <path d="M 676.8 212.328 
+" clip-path="url(#peccd660d61)" style="fill: none; stroke: #d97706; stroke-width: 1.5; stroke-linecap: square"/>
+    <defs>
+     <path id="m579bd8f616" d="M 0 6 
+C 1.591219 6 3.117479 5.367802 4.242641 4.242641 
+C 5.367802 3.117479 6 1.591219 6 0 
+C 6 -1.591219 5.367802 -3.117479 4.242641 -4.242641 
+C 3.117479 -5.367802 1.591219 -6 0 -6 
+C -1.591219 -6 -3.117479 -5.367802 -4.242641 -4.242641 
+C -5.367802 -3.117479 -6 -1.591219 -6 0 
+C -6 1.591219 -5.367802 3.117479 -4.242641 4.242641 
+C -3.117479 5.367802 -1.591219 6 0 6 
+z
+" style="stroke: #d97706"/>
+    </defs>
+    <g clip-path="url(#peccd660d61)">
+     <use xlink:href="#m579bd8f616" x="676.8" y="212.328" style="fill: #d97706; stroke: #d97706"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="peccd660d61">
+   <rect x="7.2" y="7.2" width="837" height="415.8"/>
+  </clipPath>
+ </defs>
+</svg>

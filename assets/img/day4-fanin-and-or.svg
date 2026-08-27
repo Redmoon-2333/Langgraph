@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="975.6pt" height="545.76pt" viewBox="0 0 975.6 545.76" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-28T01:26:43.926643</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 545.76 
+L 975.6 545.76 
+L 975.6 0 
+L 0 0 
+z
+" style="fill: #f8fafc"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 22.304571 251.439158 
+L 953.295429 251.439158 
+Q 956.041714 251.439158 956.041714 249.505684 
+L 956.041714 53.258105 
+Q 956.041714 51.324632 953.295429 51.324632 
+L 22.304571 51.324632 
+Q 19.558286 51.324632 19.558286 53.258105 
+L 19.558286 249.505684 
+Q 19.558286 251.439158 22.304571 251.439158 
+z
+" clip-path="url(#p1c1c9d85f8)" style="fill: #ffffff; stroke: #2563eb; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 213.858 130.113684 
+L 384.127714 130.113684 
+Q 385.500857 130.113684 385.500857 129.146947 
+L 385.500857 105.945263 
+Q 385.500857 104.978526 384.127714 104.978526 
+L 213.858 104.978526 
+Q 212.484857 104.978526 212.484857 105.945263 
+L 212.484857 129.146947 
+Q 212.484857 130.113684 213.858 130.113684 
+z
+" clip-path="url(#p1c1c9d85f8)" style="fill: #eff6ff; stroke: #2563eb; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 213.858 173.616842 
+L 590.099143 173.616842 
+Q 591.472286 173.616842 591.472286 172.650105 
+L 591.472286 149.448421 
+Q 591.472286 148.481684 590.099143 148.481684 
+L 213.858 148.481684 
+Q 212.484857 148.481684 212.484857 149.448421 
+L 212.484857 172.650105 
+Q 212.484857 173.616842 213.858 173.616842 
+z
+" clip-path="url(#p1c1c9d85f8)" style="fill: #eff6ff; stroke: #2563eb; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 639.532286 217.12 
+L 857.862 217.12 
+Q 859.235143 217.12 859.235143 216.153263 
+L 859.235143 192.951579 
+Q 859.235143 191.984842 857.862 191.984842 
+L 639.532286 191.984842 
+Q 638.159143 191.984842 638.159143 192.951579 
+L 638.159143 216.153263 
+Q 638.159143 217.12 639.532286 217.12 
+z
+" clip-path="url(#p1c1c9d85f8)" style="fill: #f5f3ff; stroke: #7c3aed; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 199.44 117.546105 
+L 899.742857 117.546105 
+" clip-path="url(#p1c1c9d85f8)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #e2e8f0"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 199.44 161.049263 
+L 899.742857 161.049263 
+" clip-path="url(#p1c1c9d85f8)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #e2e8f0"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 199.44 204.552421 
+L 899.742857 204.552421 
+" clip-path="url(#p1c1c9d85f8)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #e2e8f0"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 611.382857 221.470316 
+L 611.382857 95.794526 
+" clip-path="url(#p1c1c9d85f8)" style="fill: none; stroke-dasharray: 1.6,2.64; stroke-dashoffset: 0; stroke: #dc2626; stroke-width: 1.6"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #2563eb" x="48.394286" y="74.042947" transform="rotate(-0 48.394286 74.042947)">模式 A：AND 汇合 (栅栏同步) —— builder.add_edge(['node_c', 'node_d'], 'node_e')</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #2563eb" x="48.394286" y="117.546105" transform="rotate(-0 48.394286 117.546105)">node_c (耗时 1 步)</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #2563eb" x="48.394286" y="161.049263" transform="rotate(-0 48.394286 161.049263)">node_d (耗时 2 步)</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #7c3aed" x="48.394286" y="204.552421" transform="rotate(-0 48.394286 204.552421)">node_e (AND 汇合)</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2563eb" x="298.992857" y="117.546105" transform="rotate(-0 298.992857 117.546105)">Step 2: node_c 执行完毕</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2563eb" x="401.978571" y="161.049263" transform="rotate(-0 401.978571 161.049263)">Step 2 ~ Step 3: node_d 持续执行...</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #dc2626" x="611.382857" y="86.127158" transform="rotate(-0 611.382857 86.127158)">同步栅栏：等待全部前驱到达</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #7c3aed" x="748.697143" y="204.552421" transform="rotate(-0 748.697143 204.552421)">Step 4: node_e 仅触发执行 1 次！</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_6">
+    <path d="M 22.304571 529.859368 
+L 953.295429 529.859368 
+Q 956.041714 529.859368 956.041714 527.925895 
+L 956.041714 331.678316 
+Q 956.041714 329.744842 953.295429 329.744842 
+L 22.304571 329.744842 
+Q 19.558286 329.744842 19.558286 331.678316 
+L 19.558286 527.925895 
+Q 19.558286 529.859368 22.304571 529.859368 
+z
+" clip-path="url(#p1bc87bd1ba)" style="fill: #ffffff; stroke: #d97706; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 213.858 408.533895 
+L 384.127714 408.533895 
+Q 385.500857 408.533895 385.500857 407.567158 
+L 385.500857 384.365474 
+Q 385.500857 383.398737 384.127714 383.398737 
+L 213.858 383.398737 
+Q 212.484857 383.398737 212.484857 384.365474 
+L 212.484857 407.567158 
+Q 212.484857 408.533895 213.858 408.533895 
+z
+" clip-path="url(#p1bc87bd1ba)" style="fill: #fffbeb; stroke: #d97706; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 213.858 452.037053 
+L 590.099143 452.037053 
+Q 591.472286 452.037053 591.472286 451.070316 
+L 591.472286 427.868632 
+Q 591.472286 426.901895 590.099143 426.901895 
+L 213.858 426.901895 
+Q 212.484857 426.901895 212.484857 427.868632 
+L 212.484857 451.070316 
+Q 212.484857 452.037053 213.858 452.037053 
+z
+" clip-path="url(#p1bc87bd1ba)" style="fill: #fffbeb; stroke: #d97706; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 406.098 495.540211 
+L 583.233429 495.540211 
+Q 584.606571 495.540211 584.606571 494.573474 
+L 584.606571 471.371789 
+Q 584.606571 470.405053 583.233429 470.405053 
+L 406.098 470.405053 
+Q 404.724857 470.405053 404.724857 471.371789 
+L 404.724857 494.573474 
+Q 404.724857 495.540211 406.098 495.540211 
+z
+" clip-path="url(#p1bc87bd1ba)" style="fill: #fef2f2; stroke: #dc2626; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 612.069429 495.540211 
+L 789.204857 495.540211 
+Q 790.578 495.540211 790.578 494.573474 
+L 790.578 471.371789 
+Q 790.578 470.405053 789.204857 470.405053 
+L 612.069429 470.405053 
+Q 610.696286 470.405053 610.696286 471.371789 
+L 610.696286 494.573474 
+Q 610.696286 495.540211 612.069429 495.540211 
+z
+" clip-path="url(#p1bc87bd1ba)" style="fill: #fef2f2; stroke: #dc2626; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 199.44 395.966316 
+L 899.742857 395.966316 
+" clip-path="url(#p1bc87bd1ba)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #e2e8f0"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 199.44 439.469474 
+L 899.742857 439.469474 
+" clip-path="url(#p1bc87bd1ba)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #e2e8f0"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 199.44 482.972632 
+L 899.742857 482.972632 
+" clip-path="url(#p1bc87bd1ba)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #e2e8f0"/>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #d97706" x="48.394286" y="352.463158" transform="rotate(-0 48.394286 352.463158)">模式 B：OR 汇合 (竞速/独立触发) —— builder.add_edge('node_c', 'node_e') 与 add_edge('node_d', 'node_e')</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #d97706" x="48.394286" y="395.966316" transform="rotate(-0 48.394286 395.966316)">node_c (先完成)</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #d97706" x="48.394286" y="439.469474" transform="rotate(-0 48.394286 439.469474)">node_d (后完成)</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #dc2626" x="48.394286" y="482.972632" transform="rotate(-0 48.394286 482.972632)">node_e (OR 触发)</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #d97706" x="298.992857" y="395.966316" transform="rotate(-0 298.992857 395.966316)">Step 2 完成</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #d97706" x="401.978571" y="439.469474" transform="rotate(-0 401.978571 439.469474)">Step 3 完成</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #dc2626" x="494.665714" y="482.972632" transform="rotate(-0 494.665714 482.972632)">第 1 次触发 (by c)</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 385.343546 409.97571 
+Q 395.112308 445.509581 404.466155 479.534199 
+" style="fill: none; stroke: #dc2626; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 405.33429 475.147134 
+L 404.466155 479.534199 
+L 401.477384 476.207452 
+" style="fill: none; stroke: #dc2626; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #dc2626" x="700.637143" y="482.972632" transform="rotate(-0 700.637143 482.972632)">第 2 次触发 (by d)</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 591.884463 453.229719 
+Q 601.08503 467.264293 609.427441 479.989833 
+" style="fill: none; stroke: #dc2626; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 608.90704 475.548079 
+L 609.427441 479.989833 
+L 605.561797 477.741101 
+" style="fill: none; stroke: #dc2626; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #dc2626" x="817.354286" y="482.972632" transform="rotate(-0 817.354286 482.972632)">⚠️ 执行 2 次！需下游幂等</text>
+   </g>
+  </g>
+  <g id="text_18">
+   <text style="font-weight: 700; font-size: 15px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f172a" x="482.4" y="19.835156" transform="rotate(-0 482.4 19.835156)">LangGraph 汇合语义深度辨析：AND 汇合 (列表边) vs OR 汇合 (独立边) [CP2-08]</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1c1c9d85f8">
+   <rect x="7.2" y="42.624" width="961.2" height="217.515789"/>
+  </clipPath>
+  <clipPath id="p1bc87bd1ba">
+   <rect x="7.2" y="321.044211" width="961.2" height="217.515789"/>
+  </clipPath>
+ </defs>
+</svg>

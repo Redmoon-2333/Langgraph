@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1043.136pt" height="489.6pt" viewBox="0 0 1043.136 489.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-28T01:26:42.948729</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 489.6 
+L 1043.136 489.6 
+L 1043.136 0 
+L 0 0 
+z
+" style="fill: #f8fafc"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 20.686478 466.3944 
+L 307.352546 466.3944 
+Q 308.920741 466.3944 308.920741 464.2884 
+L 308.920741 79.3116 
+Q 308.920741 77.2056 307.352546 77.2056 
+L 20.686478 77.2056 
+Q 19.118283 77.2056 19.118283 79.3116 
+L 19.118283 464.2884 
+Q 19.118283 466.3944 20.686478 466.3944 
+z
+" clip-path="url(#paf4b91e43b)" style="fill: #ffffff; stroke: #2563eb; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 29.78201 120.5892 
+L 298.257015 120.5892 
+Q 299.197932 120.5892 299.197932 119.3256 
+L 299.197932 91.5264 
+Q 299.197932 90.2628 298.257015 90.2628 
+L 29.78201 90.2628 
+Q 28.841093 90.2628 28.841093 91.5264 
+L 28.841093 119.3256 
+Q 28.841093 120.5892 29.78201 120.5892 
+z
+" clip-path="url(#paf4b91e43b)" style="fill: #2563eb"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 29.78201 213.2532 
+L 298.257015 213.2532 
+Q 299.197932 213.2532 299.197932 211.9896 
+L 299.197932 133.6464 
+Q 299.197932 132.3828 298.257015 132.3828 
+L 29.78201 132.3828 
+Q 28.841093 132.3828 28.841093 133.6464 
+L 28.841093 211.9896 
+Q 28.841093 213.2532 29.78201 213.2532 
+z
+" clip-path="url(#paf4b91e43b)" style="fill: #eff6ff; stroke: #2563eb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 29.78201 449.1252 
+L 298.257015 449.1252 
+Q 299.197932 449.1252 299.197932 447.8616 
+L 299.197932 356.8824 
+Q 299.197932 355.6188 298.257015 355.6188 
+L 29.78201 355.6188 
+Q 28.841093 355.6188 28.841093 356.8824 
+L 28.841093 447.8616 
+Q 28.841093 449.1252 29.78201 449.1252 
+z
+" clip-path="url(#paf4b91e43b)" style="fill: #eff6ff; stroke: #2563eb; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="164.019512" y="108.111969" transform="rotate(-0 164.019512 108.111969)">形态 1: TypedDict (官方首选推荐)</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #2563eb" x="35.427512" y="145.44" transform="rotate(-0 35.427512 145.44)">声明语法示例:</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="35.427512" y="162.288" transform="rotate(-0 35.427512 162.288)">class OverAllState(TypedDict):</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="35.427512" y="177.4512" transform="rotate(-0 35.427512 177.4512)">    logs: Annotated[list[str], add]</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="35.427512" y="192.6144" transform="rotate(-0 35.427512 192.6144)">    cur_id: str</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="32.291122" y="233.892" transform="rotate(-0 32.291122 233.892)">核心特性与机制解析:</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 7.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="32.291122" y="254.952" transform="rotate(-0 32.291122 254.952)">• 字段访问：字典语法 state['cur_id']</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="32.291122" y="273.906" transform="rotate(-0 32.291122 273.906)">• 节点返回：直接返回增量补丁 dict</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="32.291122" y="292.86" transform="rotate(-0 32.291122 292.86)">• 类型校验：静态轻量，运行期零开销</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="32.291122" y="311.814" transform="rotate(-0 32.291122 311.814)">• 推荐指数：⭐⭐⭐⭐⭐ (零心智负担)</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2563eb" x="164.019512" y="377.252203" transform="rotate(-0 164.019512 377.252203)">底线结论 (Verdict)</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="38.563902" y="404.478" transform="rotate(-0 38.563902 404.478)">✅ 增量补丁完美契合：框架仅更新返回的 key，绝无双重累加风险</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_6">
+    <path d="M 378.234966 466.3944 
+L 664.901034 466.3944 
+Q 666.469229 466.3944 666.469229 464.2884 
+L 666.469229 79.3116 
+Q 666.469229 77.2056 664.901034 77.2056 
+L 378.234966 77.2056 
+Q 376.666771 77.2056 376.666771 79.3116 
+L 376.666771 464.2884 
+Q 376.666771 466.3944 378.234966 466.3944 
+z
+" clip-path="url(#p3b43fc2843)" style="fill: #ffffff; stroke: #d97706; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 387.330498 120.5892 
+L 655.805502 120.5892 
+Q 656.74642 120.5892 656.74642 119.3256 
+L 656.74642 91.5264 
+Q 656.74642 90.2628 655.805502 90.2628 
+L 387.330498 90.2628 
+Q 386.38958 90.2628 386.38958 91.5264 
+L 386.38958 119.3256 
+Q 386.38958 120.5892 387.330498 120.5892 
+z
+" clip-path="url(#p3b43fc2843)" style="fill: #d97706"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 387.330498 213.2532 
+L 655.805502 213.2532 
+Q 656.74642 213.2532 656.74642 211.9896 
+L 656.74642 133.6464 
+Q 656.74642 132.3828 655.805502 132.3828 
+L 387.330498 132.3828 
+Q 386.38958 132.3828 386.38958 133.6464 
+L 386.38958 211.9896 
+Q 386.38958 213.2532 387.330498 213.2532 
+z
+" clip-path="url(#p3b43fc2843)" style="fill: #fffbeb; stroke: #d97706; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 387.330498 449.1252 
+L 655.805502 449.1252 
+Q 656.74642 449.1252 656.74642 447.8616 
+L 656.74642 356.8824 
+Q 656.74642 355.6188 655.805502 355.6188 
+L 387.330498 355.6188 
+Q 386.38958 355.6188 386.38958 356.8824 
+L 386.38958 447.8616 
+Q 386.38958 449.1252 387.330498 449.1252 
+z
+" clip-path="url(#p3b43fc2843)" style="fill: #fffbeb; stroke: #d97706; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="521.568" y="107.959594" transform="rotate(-0 521.568 107.959594)">形态 2: dataclass (易踩累加陷阱)</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #d97706" x="392.976" y="145.44" transform="rotate(-0 392.976 145.44)">声明语法示例:</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="392.976" y="162.288" transform="rotate(-0 392.976 162.288)">@dataclass</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="392.976" y="177.4512" transform="rotate(-0 392.976 177.4512)">class OverAllState:</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="392.976" y="192.6144" transform="rotate(-0 392.976 192.6144)">    logs: Annotated[list[str], add]</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="392.976" y="207.7776" transform="rotate(-0 392.976 207.7776)">    cur_id: str</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="389.83961" y="233.892" transform="rotate(-0 389.83961 233.892)">核心特性与机制解析:</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 7.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="389.83961" y="254.952" transform="rotate(-0 389.83961 254.952)">• 字段访问：属性语法 state.cur_id</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 7.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="389.83961" y="273.906" transform="rotate(-0 389.83961 273.906)">• 节点返回：必须构造 OverAllState 新对象</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 7.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="389.83961" y="292.86" transform="rotate(-0 389.83961 292.86)">• 类型校验：基础对象封装，无深度校验</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 7.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="389.83961" y="311.814" transform="rotate(-0 389.83961 311.814)">• 踩坑指数：⚠️⚠️⚠️⚠️⚠️ (高危操作)</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #d97706" x="521.568" y="377.252203" transform="rotate(-0 521.568 377.252203)">底线结论 (Verdict)</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="396.11239" y="404.478" transform="rotate(-0 396.11239 404.478)">❌ 双重累加陷阱：若在内部 state.logs + [...]，返回后会被 Reducer 再次拼接导致日志翻倍！</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_10">
+    <path d="M 735.783454 466.3944 
+L 1022.449522 466.3944 
+Q 1024.017717 466.3944 1024.017717 464.2884 
+L 1024.017717 79.3116 
+Q 1024.017717 77.2056 1022.449522 77.2056 
+L 735.783454 77.2056 
+Q 734.215259 77.2056 734.215259 79.3116 
+L 734.215259 464.2884 
+Q 734.215259 466.3944 735.783454 466.3944 
+z
+" clip-path="url(#pa5f09518ad)" style="fill: #ffffff; stroke: #059669; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 744.878985 120.5892 
+L 1013.35399 120.5892 
+Q 1014.294907 120.5892 1014.294907 119.3256 
+L 1014.294907 91.5264 
+Q 1014.294907 90.2628 1013.35399 90.2628 
+L 744.878985 90.2628 
+Q 743.938068 90.2628 743.938068 91.5264 
+L 743.938068 119.3256 
+Q 743.938068 120.5892 744.878985 120.5892 
+z
+" clip-path="url(#pa5f09518ad)" style="fill: #059669"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 744.878985 213.2532 
+L 1013.35399 213.2532 
+Q 1014.294907 213.2532 1014.294907 211.9896 
+L 1014.294907 133.6464 
+Q 1014.294907 132.3828 1013.35399 132.3828 
+L 744.878985 132.3828 
+Q 743.938068 132.3828 743.938068 133.6464 
+L 743.938068 211.9896 
+Q 743.938068 213.2532 744.878985 213.2532 
+z
+" clip-path="url(#pa5f09518ad)" style="fill: #ecfdf5; stroke: #059669; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 744.878985 449.1252 
+L 1013.35399 449.1252 
+Q 1014.294907 449.1252 1014.294907 447.8616 
+L 1014.294907 356.8824 
+Q 1014.294907 355.6188 1013.35399 355.6188 
+L 744.878985 355.6188 
+Q 743.938068 355.6188 743.938068 356.8824 
+L 743.938068 447.8616 
+Q 743.938068 449.1252 744.878985 449.1252 
+z
+" clip-path="url(#pa5f09518ad)" style="fill: #ecfdf5; stroke: #059669; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="879.116488" y="108.117" transform="rotate(-0 879.116488 108.117)">形态 3: Pydantic BaseModel (生产级严校验)</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #059669" x="750.524488" y="145.44" transform="rotate(-0 750.524488 145.44)">声明语法示例:</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="750.524488" y="162.288" transform="rotate(-0 750.524488 162.288)">class OverAllState(BaseModel):</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="750.524488" y="177.4512" transform="rotate(-0 750.524488 177.4512)">    logs: Annotated[list[str], add]</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #0f172a" x="750.524488" y="192.6144" transform="rotate(-0 750.524488 192.6144)">    cur_id: str</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="747.388098" y="233.892" transform="rotate(-0 747.388098 233.892)">核心特性与机制解析:</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 7.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="747.388098" y="254.952" transform="rotate(-0 747.388098 254.952)">• 字段访问：属性语法 state.cur_id</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 7.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="747.388098" y="273.906" transform="rotate(-0 747.388098 273.906)">• 节点返回：支持返回 dict 或模型实例</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 7.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="747.388098" y="292.86" transform="rotate(-0 747.388098 292.86)">• 类型校验：运行期严格字段类型转换与校验</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 7.8px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="747.388098" y="311.814" transform="rotate(-0 747.388098 311.814)">• 适用场景：对外 HTTP/RPC 接口入参校验</text>
+   </g>
+   <g id="text_36">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #059669" x="879.116488" y="377.252203" transform="rotate(-0 879.116488 377.252203)">底线结论 (Verdict)</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 7.5px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0f172a" x="753.660878" y="404.478" transform="rotate(-0 753.660878 404.478)">🛡️ 生产级强契约：自动类型转换与非法入参拦截，微小校验开销</text>
+   </g>
+  </g>
+  <g id="text_38">
+   <text style="font-weight: 700; font-size: 15px; font-family: 'Microsoft YaHei', 'SimHei', 'PingFang SC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0f172a" x="521.568" y="19.760156" transform="rotate(-0 521.568 19.760156)">LangGraph State 声明的三种形态深度对比 (CP1-02)</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="paf4b91e43b">
+   <rect x="7.2" y="61.2" width="313.639024" height="421.2"/>
+  </clipPath>
+  <clipPath id="p3b43fc2843">
+   <rect x="364.748488" y="61.2" width="313.639024" height="421.2"/>
+  </clipPath>
+  <clipPath id="pa5f09518ad">
+   <rect x="722.296976" y="61.2" width="313.639024" height="421.2"/>
+  </clipPath>
+ </defs>
+</svg>
