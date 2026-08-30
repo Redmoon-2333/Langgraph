@@ -18,7 +18,7 @@ math: true
 
 | 项目 | 内容 |
 | --- | --- |
-| 对应代码 | [`GuiGU 项目代码集（CP1 / CP2 / CP3 共 26 个 Notebooks）`](../../07_MyProject/LangChain_LangGraph/GuiGU) |
+| 对应代码 | [`Langgraph 项目代码集（CP1 / CP2 / CP3 共 31 个 Notebooks）`](https://github.com/Redmoon-2333/Langgraph) |
 | 学习主题 | LangGraph 核心机制：State、Reducer、Control Flow、Loops、Checkpoints & Time-Travel |
 | 核心依赖 | `langgraph>=0.2.0`, `langchain-core`, `langchain-deepseek`, `langgraph-checkpoint-postgres` |
 | 执行环境 | Python 3.11+, DeepSeek-v4-flash (API), PostgreSQL |
@@ -30,7 +30,7 @@ math: true
 
 过去使用传统链式工作流（如 LCEL 或早期 Agent 框架）时，最常遇到的痛点在于：**纯线性链条难以表达复杂的条件分支、动态并行、状态循环与故障重试，更无法在进程崩溃或长时间等待人工介入时优雅地保存与恢复状态**。
 
-LangGraph 的诞生正是为了解决这些痛点。它基于 Google 的 Pregel 图计算模型与状态机（State Machine）理念，将 Agent 的执行过程抽象为由**状态（State）**、**节点（Node）**、**边（Edge）**构成的有向计算图，并内建了原子级的**检查点（Checkpoint）**持久化能力。本文将基于 `GuiGU` 项目的 26 个实战 Notebook，系统梳理 CP1（状态底座）、CP2（控制流与循环容错）及 CP3（持久化与时间旅行）的全部核心设计，揭示工业级图驱动 Agent 的内部运转机理。
+LangGraph 的诞生正是为了解决这些痛点。它基于 Google 的 Pregel 图计算模型与状态机（State Machine）理念，将 Agent 的执行过程抽象为由**状态（State）**、**节点（Node）**、**边（Edge）**构成的有向计算图，并内建了原子级的**检查点（Checkpoint）**持久化能力。本文将基于项目的 31 个实战 Notebook，系统梳理 CP1（状态底座）、CP2（控制流与循环容错）及 CP3（持久化与时间旅行）的全部核心设计，揭示工业级图驱动 Agent 的内部运转机理。
 
 ---
 

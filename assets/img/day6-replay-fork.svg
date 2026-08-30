@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">LangGraph Replay 与 Fork 对比</title>
+  <desc id="desc">同一个历史检查点分别通过 Replay 原样向后执行，或通过 Fork 修改状态后生成新的未来。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#475569"/></marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f172a" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="1200" height="620" fill="#f8fafc"/>
+  <text x="60" y="54" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#172033">Replay 与 Fork：同一检查点的两种未来</text>
+  <text x="60" y="86" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="16" fill="#64748b">Replay 不改过去；Fork 在历史锚点上写入新状态并保留原分支。</text>
+  <g filter="url(#shadow)">
+    <rect x="440" y="120" width="320" height="100" rx="16" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+    <text x="600" y="158" text-anchor="middle" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" fill="#9a3412">历史锚点</text>
+    <text x="600" y="188" text-anchor="middle" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="15" fill="#334155">checkpoint_id · values · next</text>
+  </g>
+  <path d="M520 220 V285 H280 V340" fill="none" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M680 220 V285 H920 V340" fill="none" stroke="#7c3aed" stroke-width="3" marker-end="url(#arrow)"/>
+  <g filter="url(#shadow)">
+    <rect x="100" y="340" width="360" height="190" rx="16" fill="#eef5ff" stroke="#2563eb" stroke-width="2"/>
+    <text x="280" y="380" text-anchor="middle" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#1e3a8a">Replay</text>
+    <text x="280" y="416" text-anchor="middle" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="16" fill="#334155">invoke(None, old_config)</text>
+    <text x="280" y="450" text-anchor="middle" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="15" fill="#475569">状态起点不变</text>
+    <text x="280" y="478" text-anchor="middle" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="15" fill="#475569">按 next 重跑后续节点</text>
+    <text x="280" y="506" text-anchor="middle" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="14" fill="#64748b">结果可能因 LLM 再调用而不同</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="740" y="340" width="360" height="190" rx="16" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+    <text x="920" y="380" text-anchor="middle" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#5b21b6">Fork</text>
+    <text x="920" y="416" text-anchor="middle" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="16" fill="#334155">update_state(old_config, values)</text>
+    <text x="920" y="450" text-anchor="middle" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="15" fill="#475569">生成新的 checkpoint_id</text>
+    <text x="920" y="478" text-anchor="middle" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="15" fill="#475569">parent_config 指向旧锚点</text>
+    <text x="920" y="506" text-anchor="middle" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="14" fill="#64748b">修改输入或伪造节点产出</text>
+  </g>
+  <path d="M280 530 V565 H600" fill="none" stroke="#2563eb" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+  <path d="M920 530 V565 H600" fill="none" stroke="#7c3aed" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+  <text x="600" y="598" text-anchor="middle" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="15" fill="#475569">可审计、可回滚、可比较的时间线</text>
+</svg>
