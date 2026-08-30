@@ -2,3 +2,6 @@
 *.md text eol=lf
 *.svg text eol=lf
 *.py text eol=lf
+*.txt text eol=lf
+.env.example text eol=lf
+.gitignore text eol=lf
