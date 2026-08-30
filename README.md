@@ -108,7 +108,7 @@ CREATE DATABASE langgraph_db OWNER langgraph_user;
 - `05_find_error` 与 `06_fix_error` 依赖 CP3-04 写入的同一 `thread_id`。如果该线程已经恢复到 `END`，请设置新的 `CP3_ERROR_THREAD_ID` 并重新执行 04。
 - `PostgresSaver` 必须在 `with` 块内使用；离开上下文后连接会关闭。
 - `08_fork` 只使用内存检查点，重启 Kernel 后需要从第一个代码单元重新执行。
-- 输出已清理为可复现的教学输出，避免把大段 LLM 文本和图像 base64 当成 Notebook 内容提交。
+- 新增 CP3-04～08 的输出已清理为可复现的教学输出，避免把大段 LLM 文本和图像 base64 当成 Notebook 内容提交；既有 CP3-01～03 的历史输出未改动。
 
 ## 对应笔记
 
