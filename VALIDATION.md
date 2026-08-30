@@ -4,13 +4,13 @@
 
 ## 验证矩阵
 
-| 文件 | JSON / AST | 模拟 LLM + 内存检查点 | 模拟 LLM + 真实 PostgreSQL | 结果断言 |
+| 文件 | JSON / AST | 模拟 LLM + 内存检查点 | 模拟 LLM + 对应检查点后端 | 结果断言 |
 | --- | --- | --- | --- | --- |
-| `CP3/04_error.ipynb` | 通过 | 通过 | 通过 | 捕获预期 `expected_error`；失败任务写入检查点 |
-| `CP3/05_find_error.ipynb` | 通过 | 通过 | 通过 | 读取 `step=1`，看到 `node_poem` 有结果、`node_joke` 有错误 |
-| `CP3/06_fix_error.ipynb` | 通过 | 通过 | 通过 | `resume_from=('node_joke',)`，最终生成 `final_output` |
-| `CP3/07_replay.ipynb` | 通过 | 通过 | 通过 | 找到并行 checkpoint，回放后生成 `final_output` |
-| `CP3/08_fork.ipynb` | 通过 | 通过 | 通过 | 两种 `update_state` 都生成新检查点并走到预期分支 |
+| `CP3/04_error.ipynb` | 通过 | 通过 | 通过（PostgreSQL） | 捕获预期 `expected_error`；失败任务写入检查点 |
+| `CP3/05_find_error.ipynb` | 通过 | 通过 | 通过（PostgreSQL） | 读取 `step=1`，看到 `node_poem` 有结果、`node_joke` 有错误 |
+| `CP3/06_fix_error.ipynb` | 通过 | 通过 | 通过（PostgreSQL） | `resume_from=('node_joke',)`，最终生成 `final_output` |
+| `CP3/07_replay.ipynb` | 通过 | 通过 | 通过（PostgreSQL） | 找到并行 checkpoint，回放后生成 `final_output` |
+| `CP3/08_fork.ipynb` | 通过 | 通过 | 通过（InMemorySaver） | 两种 `update_state` 都生成新检查点并走到预期分支 |
 
 ## 具体证据
 
