@@ -523,3 +523,9 @@ print("历史快照状态:", snapshot.values)
 3. **控制流双轮驱动**：既有声明式的静态边与条件边（`add_conditional_edges` + `path_map`），又有指令式的动态分发（`Send` 实现动态 MapReduce）与内部直跳（`Command` 原生 goto）。
 4. **系统级高可用三件套**：`RemainingSteps` 优雅退避防爆步，`RetryPolicy` 弹性重试抗网络抖动，`CachePolicy` 精准缓存降本增效。
 5. **Checkpointer 赋予 Agent 真正的“记忆”与“后悔药”**：借助 `PostgresSaver` 实现生产级落盘，配合 `StateSnapshot` 和 `checkpoint_id` 实现多轮对话恢复与时间旅行回放。
+
+---
+
+## 附：CP3-04～08 错误恢复与分支
+
+继续学习错误定位、失败恢复、历史 Replay 与状态 Fork：[`Day6.md`](Day6.md)。
