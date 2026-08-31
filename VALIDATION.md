@@ -17,18 +17,19 @@
 - Python 环境：Conda `LangChain`，Python 3.11.15。
 - 依赖版本：`langgraph 1.2.9`、`langgraph-checkpoint-postgres 3.1.2`、`langchain-core 1.5.0`、`langchain-deepseek 1.0.1`、`python-dotenv 1.2.2`、`loguru 0.7.3`、`nbclient 0.10.4`、`nbformat 5.10.4`。
 - PostgreSQL：本机 `localhost:5432/langgraph_db` 可连接；`checkpointer.setup()` 后存在 `checkpoints`、`checkpoint_blobs`、`checkpoint_writes`、`checkpoint_migrations` 四张表。
-- Notebook 结构：五个目标文件均为 nbformat 4；代码单元通过 Python AST 解析；这五个 Notebook 都加入了中文 Markdown 说明，且没有提交执行输出或 base64 图片。另对既有 `CP3/02_in_SQL.ipynb` 做了同样的 `LANGGRAPH_DB_URL` 环境变量迁移，仓库不再硬编码示例数据库密码。
+- Notebook 结构：五个目标文件均为 nbformat 4；代码单元通过 Python AST 解析；这五个 Notebook 都加入了中文 Markdown 说明，且没有提交执行输出或 base64 图片。另对既有 `CP3/02_in_SQL.ipynb` 做了同样的连接串处理：环境变量优先、本地 Docker 教学默认值兜底，示例开箱即用。
 - SVG：远程仓库 `assets/img/` 的 8 张 Day4 图与 2 张 Day6 图均通过 XML 解析。
 - 链接：README、Day4、Day6 的仓库相对链接均解析到现有文件；关键 GitHub、博客与 LangGraph 官方文档链接返回 HTTP 200。
+- 回归执行：清空 `LANGGRAPH_DB_URL`、保留本地 Docker 默认连接串并使用内核内 stub LLM 时，CP3-02、CP3-04、CP3-05、CP3-06、CP3-07、CP3-08 均执行成功。
 - 缓存：远程仓库没有 `.ipynb_checkpoints/`、`.jupyter_cache/`、`__pycache__/` 或临时审计文件。
 
 ## 外部依赖限制
 
-本次自动验证使用**假 LLM**替代真实 DeepSeek 请求，原因是当前进程没有 `DEEPSEEK_API_KEY`，且不应在仓库中写入真实凭据。PostgreSQL 使用本机真实服务，因此验证覆盖了检查点建表、写入、读取、恢复、Replay 与 Fork 的 LangGraph 运行路径。
+本次自动验证使用**假 LLM**替代真实 DeepSeek 请求，原因是当前进程没有 `DEEPSEEK_API_KEY`。PostgreSQL 使用本机真实服务，因此验证覆盖了检查点建表、写入、读取、恢复、Replay 与 Fork 的 LangGraph 运行路径；Notebook 在缺少 `LANGGRAPH_DB_URL` 时会回退到本地 Docker 教学默认连接串。
 
 在用户自己的环境中执行时还需要：
 
-1. 按 `.env.example` 配置真实 `DEEPSEEK_API_KEY`、`DEEPSEEK_MODEL` 和 `LANGGRAPH_DB_URL`。
+1. 配置真实 `DEEPSEEK_API_KEY`、`DEEPSEEK_MODEL`；如数据库不是本地 Docker 默认实例，再通过 `LANGGRAPH_DB_URL` 覆盖连接串。
 2. 确保 DeepSeek 网关支持 `with_structured_output`，否则 CP3-08 的路由模型需要换成支持结构化输出的模型或适配器。
 3. 按 CP3-04 → CP3-05 → CP3-06 的顺序使用同一个 `CP3_ERROR_THREAD_ID`；CP3-07 使用自己的线程，CP3-08 使用内存检查点。
 4. 运行 CP3-04 时看到 `expected_error` 属于教学预期；若看到缺少环境变量、连接拒绝或模型鉴权异常，则属于本地配置问题。

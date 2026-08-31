@@ -9,7 +9,10 @@
 
 - `Day4.md`：CP1–CP3 状态、控制流、持久化与时间旅行总览
 - `Day6.md`：CP3-04–08 错误恢复、Replay 与 Fork 学习笔记
-- `assets/img/`：Day4 与 Day6 的流程图、时序图和状态图
+- `assets/img/`：Day4 与 Day6 的 SVG 流程图、时序图和状态图
+
+> 图示约定：流程图统一使用 Mermaid 或 SVG，不使用依赖空格对齐、容易产生偏移的 ASCII 图。
+
 - `CP1/`：8 个 Notebook，状态底座
 - `CP2/`：15 个 Notebook，控制流与运行时治理
 - `CP3/`：8 个 Notebook，检查点、错误恢复、Replay 与 Fork
@@ -76,12 +79,12 @@ pip install langgraph langchain-core langchain-deepseek \
 
 ## 配置
 
-复制 `.env.example` 为 `.env`，再填写真实配置。`.env` 已被 Git 忽略，不要把 API Key 或数据库密码提交到仓库。
+复制 `.env.example` 为 `.env` 后填写真实值；`.env` 已被 Git 忽略，不要把真实密钥或生产密码提交到仓库。**不配置 `LANGGRAPH_DB_URL` 时，Notebook 会回退到本地 Docker 教学默认连接串**（`postgresql://langgraph_user:123456@localhost:5432/langgraph_db?sslmode=disable`），保证课程示例开箱即用；调用真实 LLM 仍需配置 `DEEPSEEK_API_KEY`，生产环境请务必通过 `LANGGRAPH_DB_URL` 覆盖默认密码。
 
 ```dotenv
 DEEPSEEK_API_KEY=你的_API_Key
 DEEPSEEK_MODEL=deepseek-v4-flash
-LANGGRAPH_DB_URL=postgresql://langgraph_user:修改后的密码@localhost:5432/langgraph_db?sslmode=disable
+LANGGRAPH_DB_URL=postgresql://langgraph_user:123456@localhost:5432/langgraph_db?sslmode=disable
 ```
 
 启动 Jupyter 时建议位于仓库根目录，使 Notebook 中的 `load_dotenv(override=True)` 能找到 `.env`：
@@ -95,7 +98,7 @@ jupyter lab
 先创建数据库和用户，再运行任意使用 `PostgresSaver` 的 Notebook。每个 Notebook 内的 `checkpointer.setup()` 会幂等初始化 LangGraph 检查点表：
 
 ```sql
-CREATE USER langgraph_user WITH PASSWORD '修改后的密码';
+CREATE USER langgraph_user WITH PASSWORD '123456';
 CREATE DATABASE langgraph_db OWNER langgraph_user;
 ```
 

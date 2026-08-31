@@ -51,45 +51,36 @@ CP3-04～08 则把问题推进了一层：如果图已经运行到一半，其�
 
 五个 Notebook 不是五个孤立例子，而是一条连续的故障处理实验链：
 
-```text
-CP3-04 制造错误
-START → node_change_topic → (node_poem ‖ node_joke)
-                                  └─ node_joke 故意抛异常
-                                  ↓
-                         失败超步仍写入检查点
-                                  ↓
-CP3-05 查找错误
-get_state_history → StateSnapshot.tasks
-                   → node_poem 有 result
-                   → node_joke 有 error
-                                  ↓
-CP3-06 修复错误
-去掉故障注入 → invoke(None, config)
-              → 复用已完成结果
-              → 重跑失败任务
-              → node_output → END
-
-CP3-07 Replay：主动选择某个 checkpoint_id，从历史位置重新向后执行
-CP3-08 Fork：update_state 写入新状态，保留旧历史并生成新的未来
+```mermaid
+flowchart TD
+    A[CP3-04 制造错误] --> B[START 到 node_change_topic]
+    B --> C{并行超步}
+    C -->|node_poem 成功| D[StateSnapshot.tasks 记录 result]
+    C -->|node_joke 故意抛异常| E[StateSnapshot.tasks 记录 error]
+    D --> F[CP3-05 查找错误]
+    E --> F
+    F --> G[CP3-06 去掉故障注入]
+    G --> H[invoke None + config]
+    H --> I[复用已完成结果]
+    H --> J[重跑失败任务]
+    I --> K[node_output 到 END]
+    J --> K
+    K --> L[CP3-07 Replay：选择 checkpoint_id]
+    L --> M[CP3-08 Fork：update_state 生成新未来]
 ```
 
 ### 0.1 统一图结构
 
 这五个 Notebook 反复使用同一张猫主题图：
 
-```text
-                    ┌──────────────┐
-                    │ node_poem    │──┐
-START                └──────────────┘  │
-  │                                    ▼
-  ▼                           ┌────────────────┐
-node_change_topic ───────────▶│ node_output    │──▶ END
-  │                           └────────────────┘
-  │                                    ▲
-  ▼                                    │
-┌──────────────┐                       │
-│ node_joke    │───────────────────────┘
-└──────────────┘
+```mermaid
+flowchart LR
+    start_node([START]) --> change[node_change_topic]
+    change --> poem[node_poem]
+    change --> joke[node_joke]
+    poem --> output[node_output]
+    joke --> output
+    output --> end_node([END])
 ```
 
 `node_change_topic` 先把输入的 `猫` 与轮换得到的子主题拼成 `猫:布偶猫`。它的两条边把任务扇出到 `node_poem` 和 `node_joke`；两个节点都完成后，框架才允许 `node_output` 执行。这种“扇出—并行—扇入”关系，是理解失败检查点的关键。
@@ -123,11 +114,7 @@ Checkpoint 不是简单的“把最终结果存到数据库”。在 LangGraph �
 
 ### 1.2 StateSnapshot：读取出来的对象
 
-`graph.get_state(config)` 或 `graph.get_state_history(config)` 返回的就是 `StateSnapshot`。可以把它理解为：
-
-```text
-StateSnapshot = 当时的状态值 + 下一步位置 + 任务执行证据 + 时间线关系
-```
+`graph.get_state(config)` 或 `graph.get_state_history(config)` 返回的就是 `StateSnapshot`。可以把它理解为：**当时的状态值 + 下一步位置 + 任务执行证据 + 时间线关系**。
 
 排错时最重要的不是把快照整个 `print` 出来，而是先看四个字段：
 
@@ -158,15 +145,18 @@ StateSnapshot = 当时的状态值 + 下一步位置 + 任务执行证据 + 时�
 
 ### 2.1 模型和数据库配置
 
-原始示例把数据库连接串直接写在 Notebook 里。为了让仓库可以安全共享，我改为从环境变量读取：
+原始示例把数据库连接串直接写在 Notebook 里。维护后改为**环境变量优先、本地 Docker 教学默认值兜底**：
 
 ```python
 load_dotenv(override=True)
 MODEL_NAME = os.getenv("DEEPSEEK_MODEL", "deepseek-v4-flash")
-DB_URL = os.getenv("LANGGRAPH_DB_URL")
+DB_URL = os.getenv(
+    "LANGGRAPH_DB_URL",
+    "postgresql://langgraph_user:123456@localhost:5432/langgraph_db?sslmode=disable",
+)
 ```
 
-这不是改变示例逻辑，而是把凭据从代码中移出去。`DEEPSEEK_MODEL` 有默认值，便于保持课程原来的模型；`LANGGRAPH_DB_URL` 不提供默认密码，缺失时直接给出配置提示。
+`DEEPSEEK_MODEL` 有默认值，便于保持课程原来的模型；`LANGGRAPH_DB_URL` 未配置时回退到本地 Docker 教学库（`langgraph_user:123456@localhost:5432/langgraph_db`），保证课程示例开箱即用。生产环境请务必用环境变量覆盖默认密码，不要沿用示例凭据。
 
 ### 2.2 故意制造的异常
 
@@ -174,7 +164,7 @@ DB_URL = os.getenv("LANGGRAPH_DB_URL")
 def node_joke(state: OverAllState) -> OverAllState:
     logger.info("node_joke 正在执行")
     time.sleep(5)
-    raise RuntimeError("人为抛异常：用于演示可恢复的失败节点")
+    raise IntentionalNodeError("人为抛异常：用于演示可恢复的失败节点")
 ```
 
 `raise` 后面原本还有调用模型和 `return` 的代码，但那部分永远不会执行。维护时我把不可达代码删除了，只保留能准确表达教学意图的故障注入：
@@ -187,7 +177,7 @@ def node_joke(state: OverAllState) -> OverAllState:
 2. `node_change_topic` 读取全局 `topic_index`，写入 `猫:布偶猫`；
 3. `node_poem` 与 `node_joke` 同时进入待执行集合；
 4. `node_poem` 成功生成一首诗；
-5. `node_joke` 等待 5 秒后抛出 `RuntimeError`；
+5. `node_joke` 等待 5 秒后抛出 `IntentionalNodeError`；
 6. `node_output` 因为缺少完整的上游输入，不会执行；
 7. LangGraph 抛出本次调用的异常，但失败现场仍由 `PostgresSaver` 保存。
 
@@ -195,7 +185,7 @@ def node_joke(state: OverAllState) -> OverAllState:
 
 ### 2.4 为什么要捕获异常
 
-本 Notebook 的异常是教学预期，不是 Notebook 文件本身的语法错误。代码用最外层 `try/except RuntimeError` 捕获它，并打印：
+本 Notebook 的异常是教学预期，不是 Notebook 文件本身的语法错误。代码用最外层 `try/except IntentionalNodeError` 捕获它，并打印：
 
 ```python
 {"expected_error": "人为抛异常：用于演示可恢复的失败节点", "thread_id": "chapter03-05"}
@@ -242,18 +232,18 @@ state_history = list(graph.get_state_history(config=config))
 
 `get_state_history` 返回的是同一线程的检查点序列，通常是新到旧。失败运行的关键快照大致是：
 
-```text
-step -1：输入检查点，next = (__start__,)
-step  0：topic 已写入，next = (node_change_topic,)
-step  1：并行超步，next = (node_poem, node_joke)
-```
+| 超步 | 已记录内容 | `next` |
+| --- | --- | --- |
+| -1 | 输入检查点 | `(__start__,)` |
+| 0 | `topic` 已写入 | `(node_change_topic,)` |
+| 1 | 并行超步 | `(node_poem, node_joke)` |
 
 step 1 的 `tasks` 才是定位错误的核心：
 
-```text
-node_poem：result 存在，说明已经成功写出 poem
-node_joke：error 存在，说明它在本超步失败
-```
+| 任务 | 证据 | 结论 |
+| --- | --- | --- |
+| `node_poem` | `result` 存在 | 已经成功写出 `poem` |
+| `node_joke` | `error` 存在 | 在本超步失败 |
 
 `values` 可能还没有 `joke`，因为失败节点没有成功返回增量；`node_output` 也不会出现在已完成的结果中。
 
@@ -280,7 +270,7 @@ node_joke：error 存在，说明它在本超步失败
 
 ```python
 # time.sleep(5)
-# raise RuntimeError(...)
+# raise IntentionalNodeError(...)
 ```
 
 然后 `node_joke` 正常调用模型并返回：
@@ -370,10 +360,9 @@ replay_result = graph.invoke(
 
 所以要区分：
 
-```text
-Replay 保证：同一个状态起点、同一张图、同一组待执行节点
-Replay 不保证：第三方模型返回逐字一致
-```
+| Replay 保证 | Replay 不保证 |
+| --- | --- |
+| 同一个状态起点、同一张图、同一组待执行节点 | 第三方模型返回逐字一致 |
 
 如果要复现实验结果，应把模型调用包在缓存层，或者使用确定性模型配置并记录完整请求。
 
@@ -407,10 +396,10 @@ model_with_structure = model.with_structured_output(
 
 ### 6.2 职责为什么拆成两个函数
 
-```text
-router_node：调用模型，理解 user_input，输出 topic/mode
-router：读取 mode，用确定性的 Python 逻辑选择物理节点
-```
+| 函数 | 职责 |
+| --- | --- |
+| `router_node` | 调用模型，理解 `user_input`，输出 `topic/mode` |
+| `router` | 读取 `mode`，用确定性的 Python 逻辑选择物理节点 |
 
 模型负责“不确定的自然语言理解”，普通函数负责“确定的图拓扑跳转”。这种拆分便于审计：日志可以分别告诉我们模型判断了什么，以及程序最终去了哪里。
 
@@ -440,13 +429,12 @@ change_input_config = graph.update_state(
 
 `as_node=START` 的语义是：把这次修改视为起点产生的新输入。因此新快照仍然等待 `router_node`：
 
-```text
-旧锚点：next = (router_node,)
-更新输入：user_input 改为“荷花的笑话”
-续跑：router_node 重新调用 LLM
-结果：mode 通常变成 joke，随后执行 node_joke
-```
-
+| 阶段 | 状态变化 |
+| --- | --- |
+| 旧锚点 | `next = (router_node,)` |
+| 更新输入 | `user_input` 改为“荷花的笑话” |
+| 续跑 | `router_node` 重新调用 LLM |
+| 结果 | `mode` 通常变成 `joke`，随后执行 `node_joke` |
 这适用于用户修改原始问题、人工纠正输入或重新提交请求的场景。
 
 ### 6.5 方式 B：伪造节点产出，跳过模型调用
@@ -483,9 +471,9 @@ skip_router_config = graph.update_state(
 
 | 文件 | 原问题 | 处理方式 | 是否改变示例原意 |
 | --- | --- | --- | --- |
-| CP3-04 | 硬编码 DB URL；死导入；故障后的不可达代码 | 改为环境变量；移除无用导入；保留故障并捕获预期异常 | 否 |
+| CP3-04 | 硬编码 DB URL；死导入；故障后的不可达代码 | 改为环境变量优先并保留本地 Docker 默认值兜底；移除无用导入；保留故障并捕获预期异常 | 否 |
 | CP3-05 | 直接打印巨大历史；依赖模型导入；没有空历史提示 | 只打印结构摘要；不调用模型；空历史给出明确错误 | 否 |
-| CP3-06 | 硬编码配置；恢复前不检查状态 | 使用环境变量；先检查 `latest.next`，再 `invoke(None)` | 否 |
+| CP3-06 | 硬编码配置；恢复前不检查状态 | 环境变量优先并保留默认值兜底；先检查 `latest.next`，再 `invoke(None)` | 否 |
 | CP3-07 | 并行 `next` 直接按元组匹配；输出和图展示过大 | 集合匹配；输出 Mermaid 文本；清理旧输出 | 否 |
 | CP3-08 | 无关导入；`topic/mode` 未显式进全局 State；AIMessage 直接入状态 | 删除死导入；补充状态字段；统一保存 `response.content` 字符串 | 否 |
 
@@ -497,14 +485,12 @@ skip_router_config = graph.update_state(
 
 ### 8.1 推荐执行顺序
 
-```text
-CP3-01 → CP3-02 → CP3-03
-                 ↓
-CP3-04 → CP3-05 → CP3-06
-                 ↓
-CP3-07 → CP3-08
+```mermaid
+flowchart LR
+    A[CP3-01] --> B[CP3-02] --> C[CP3-03]
+    C --> D[CP3-04] --> E[CP3-05] --> F[CP3-06]
+    F --> G[CP3-07] --> H[CP3-08]
 ```
-
 CP3-04～06 共用默认线程 `chapter03-05`；CP3-07 使用 `chapter03-08`；CP3-08 使用内存检查点和 `chapter03-08-fork`。如果重复执行导致历史混杂，可以在 `.env` 中为三组实验设置新的 thread id。
 
 ### 8.2 运行前检查
@@ -515,15 +501,15 @@ pip install -r requirements.txt
 jupyter lab
 ```
 
-`.env` 至少需要：
+`.env` 可选但推荐配置真实模型：
 
 ```dotenv
 DEEPSEEK_API_KEY=你的_API_Key
 DEEPSEEK_MODEL=deepseek-v4-flash
-LANGGRAPH_DB_URL=postgresql://langgraph_user:修改后的密码@localhost:5432/langgraph_db?sslmode=disable
+LANGGRAPH_DB_URL=postgresql://langgraph_user:123456@localhost:5432/langgraph_db?sslmode=disable
 ```
 
-PostgreSQL 用户和数据库可以按 README 的 SQL 创建。不要把真实密钥或生产密码提交到 Git。
+未配置 `LANGGRAPH_DB_URL` 时，CP3-02、CP3-04～07 会使用 Notebook 内置的本地 Docker 默认连接串；未配置 `DEEPSEEK_API_KEY` 时，涉及 LLM 的 Notebook 会立即提示缺少配置。PostgreSQL 用户和数据库可以按 README 的 SQL 创建。不要把真实密钥或生产密码提交到 Git。
 
 ### 8.3 常见错误定位
 
@@ -591,15 +577,14 @@ Replay 适合开发者重现路径、比较模型版本和验证修复；Fork �
 
 这五个 Notebook 让我看到，LangGraph 真正解决的并不只是“把节点连起来”。它更像是给 Agent 增加了一层可观察、可恢复、可分支的运行时：
 
-```text
-State 让数据有位置
-Node 让能力可组合
-Edge 让控制流可描述
-Checkpoint 让失败可恢复
-Replay 让历史可重现
-Fork 让未来可比较
-```
-
+| 组件 | 作用 |
+| --- | --- |
+| State | 让数据有位置 |
+| Node | 让能力可组合 |
+| Edge | 让控制流可描述 |
+| Checkpoint | 让失败可恢复 |
+| Replay | 让历史可重现 |
+| Fork | 让未来可比较 |
 对于后续要做的 GuiGU 项目，最值得带走的不是某一行 API，而是这种工程思维：**每个长流程都应该能回答“现在在哪、已经做了什么、失败后从哪里继续、如果改了决定会发生什么”。**
 
 署名：RedMoon

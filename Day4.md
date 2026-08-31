@@ -38,33 +38,12 @@ LangGraph 的诞生正是为了解决这些痛点。它基于 Google 的 Pregel 
 
 整个 LangGraph 体系的学习演进路线可以清晰地划分为三个层级：
 
-```text
-【CP1 状态底座】
-TypedDict / dataclass / BaseModel 三形态
-→ Reducer 归约合并（add / 自定义）
-→ 消息专用归约 add_messages 与 MessagesState
-→ 节点增量补丁（Partial State Update）与 Overwrite 强制覆盖
-→ 多 Schema 视图隔离（Input / OverAll / Output / Private）
-→ MessagesState 与 DeepSeek LLM 对话联动
-        │
-        ▼
-【CP2 控制流与运行时治理】
-扇出并行（Fan-Out）
-→ 条件路由（Conditional Edges）与 path_map 解耦
-→ 多路分支 Sequence 扇出与 defer 延迟审计节点
-→ 动态分支（Send API）：输入决定并行度的 Map-Reduce
-→ 指令式控制流：Command(goto, update) 原生状态跳转
-→ 汇合语义：AND 扇入（全部到达）vs OR 扇入（任一触发）
-→ ReAct 工具调用循环与随机失败模拟
-→ 递归上限限制与 RemainingSteps 优雅退避
-→ RetryPolicy 异常重试策略与 CachePolicy(TTL) 内存缓存
-        │
-        ▼
-【CP3 记忆、持久化与时间旅行】
-InMemorySaver 内存检查点与 thread_id 会话隔离
-→ PostgresSaver 数据库落盘持久化与 setup() 初始化
-→ StateSnapshot 数据结构剖析（values, next, step, parent_config）
-→ get_state_history 与 get_state(checkpoint_id) 任意时刻状态回放（时间旅行）
+```mermaid
+flowchart TD
+    CP1[CP1 状态底座<br/>TypedDict / dataclass / BaseModel<br/>Reducer、MessagesState、Partial State Update、多 Schema]
+    CP2[CP2 控制流与运行时治理<br/>Fan-Out、Conditional Edges、Send、Command<br/>Loops、RemainingSteps、RetryPolicy、CachePolicy]
+    CP3[CP3 记忆、持久化与时间旅行<br/>InMemorySaver、PostgresSaver、StateSnapshot<br/>get_state_history、checkpoint_id 回放]
+    CP1 --> CP2 --> CP3
 ```
 
 ---
