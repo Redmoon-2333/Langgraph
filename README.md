@@ -7,11 +7,11 @@
 
 ## 目录
 
-- `Day4.md`：CP1–CP3 状态、控制流、持久化与时间旅行总览
-- `Day6.md`：CP3-04–08 错误恢复、Replay 与 Fork 学习笔记
-- `assets/img/`：Day4 与 Day6 的 SVG 流程图、时序图和状态图
+- `Day4.md`：CP1–CP3 状态、控制流、持久化与时间旅行总览（随仓发布）
+- `assets/img/`：流程图与时序图（Day4 SVG + Day6 的 `matplotlib`/`faro` 图）
+- `CP3/04_error.ipynb` ~ `08_fork.ipynb`：已 1:1 同步自 `xbsheng/atguigu-note` 并补充详尽中文注释，带可复现输出
 
-> 图示约定：流程图统一使用 Mermaid 或 SVG，不使用依赖空格对齐、容易产生偏移的 ASCII 图。
+> 图示约定：本仓仅托管 `matplotlib`/`faro` 生成的 PNG 与手写 SVG，禁用 Mermaid 与 ASCII 绘图；学习笔记原文收录于 `08_MyNote/Day1~Day6`（不进本仓库，避免与代码仓职责混淆）。
 
 - `CP1/`：8 个 Notebook，状态底座
 - `CP2/`：15 个 Notebook，控制流与运行时治理
@@ -115,8 +115,8 @@ CREATE DATABASE langgraph_db OWNER langgraph_user;
 
 ## 对应笔记
 
-- [Day4：图驱动 Agent 的状态、控制流与记忆回放](Day4.md)
-- [Day6：错误处理、Replay 与 Fork](Day6.md)
+- [Day4：图驱动 Agent 的状态、控制流与记忆回放](Day4.md)（本仓随仓发布）
+- Day6：错误处理、Replay 与 Fork（已移至 `08_MyNote/Day6`，按规范不进代码仓）
 - [线上博客](https://redmoon-2333.github.io)
 - [LangGraph 官方 Time Travel 文档](https://docs.langchain.com/oss/python/langgraph/use-time-travel)
 
